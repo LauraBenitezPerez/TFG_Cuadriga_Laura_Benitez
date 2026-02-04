@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="cuadriganuevo">
+  <link
+    name="Base_Link" />
+  <link
+    name="Chasis_link">
+    <inertial>
+      <origin
+        xyz="-0.13307651675874 5.98249848043367E-06 0.320430258289949"
+        rpy="0 0 0" />
+      <mass
+        value="68.48" />
+      <inertia
+        ixx="3.173672984"
+        ixy="-7.34801E-06"
+        ixz="0.3973765491"
+        iyy="1.716614282"
+        iyz="3.90131E-06"
+        izz="3.469992447" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="cuadriganuevo/meshes/Chasis_Link.fbx"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="cuadriganuevo/meshes/Chasis_Collider.fbx"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Base_Link_Joint"
+    type="fixed">
+    <origin
+      xyz="0 0 -0.215"
+      rpy="0 0 0" />
+    <parent
+      link="Base_Link" />
+    <child
+      link="Chasis_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="RDD_Link">
+    <inertial>
+      <origin
+        xyz="-1.710502907315E-06 -0.0230375399901583 1.12303107477341E-06"
+        rpy="0 0 0" />
+      <mass
+        value="5.75" />
+      <inertia
+        ixx="0.05766998407"
+        ixy="1.301E-08"
+        ixz="7.58411177780634E-08"
+        iyy="0.1031307224"
+        iyz="-8.53E-09"
+        izz="0.05767002616" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="cuadriganuevo/meshes/RDD_Link.fbx"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+         <cylinder radius="0.175" length="0.125"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="RDD_Joint"
+    type="revolute">
+    <origin
+      xyz="0.25144 0.28036 -0.18163"
+      rpy="0 0 0" />
+    <parent
+      link="Chasis_link" />
+    <child
+      link="RDD_Link" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="5"
+      velocity="10" />
+  </joint>
+  <link
+    name="Eng_RDD_Link">
+    <inertial>
+      <origin
+        xyz="-6.8978156519961E-13 0.00220000000000001 -9.71445146547012E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.0396928814182625" />
+      <inertia
+        ixx="3.01382510783E-05"
+        ixy="-9.41043934964144E-15"
+        ixz="3.47812903966297E-20"
+        iyy="6.01494219716196E-05"
+        iyz="-1.30296059046986E-17"
+        izz="3.01382510783E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="cuadriganuevo/meshes/Eng_RDD_Link.fbx"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="cuadriganuevo/meshes/Eng_RDD_Link.fbx"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Eng_RDD_Joint"
+    type="revolute">
+    <origin
+      xyz="0 -0.10713 0"
+      rpy="0 0 0" />
+    <parent
+      link="RDD_Link" />
+    <child
+      link="Eng_RDD_Link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="5"
+      velocity="10" />
+    <mimic joint="RDD_Joint" multiplier="1.0" offset="0.0"/>
+  </joint>
+  <link
+    name="RTD_Link">
+    <inertial>
+      <origin
+        xyz="-1.64850869294186E-06 -0.0230375704050377 1.20946312556769E-06"
+        rpy="0 0 0" />
+      <mass
+        value="5.75" />
+      <inertia
+        ixx="0.05766998999"
+        ixy="1.253E-08"
+        ixz="5.36E-08"
+        iyy="0.1031307224"
+        iyz="-9.21E-09"
+        izz="0.05767002094" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="cuadriganuevo/meshes/RTD_Link.fbx"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+          <cylinder radius="0.175" length="0.125"/>  
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="RTD_Joint"
+    type="revolute">
+    <origin
+      xyz="-0.24785 0.28034 -0.17305"
+      rpy="0 0.017186 0" />
+    <parent
+      link="Chasis_link" />
+    <child
+      link="RTD_Link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="5"
+      velocity="10" />
+    <mimic joint="RDD_Joint" multiplier="1.0" offset="0.0"/>
+  </joint>
+  <link
+    name="Eng_RTD_Link">
+    <inertial>
+      <origin
+        xyz="3.20576898360514E-14 0.00220000000000001 -4.52693438290908E-14"
+        rpy="0 0 0" />
+      <mass
+        value="0.0396928814182625" />
+      <inertia
+        ixx="3.01382510782999E-05"
+        ixy="1.03852352887586E-19"
+        ixz="2.45639554703747E-20"
+        iyy="6.01494219716196E-05"
+        iyz="-1.30161115895057E-17"
+        izz="3.01382510783E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="cuadriganuevo/meshes/Eng_RTD_Link.fbx"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="cuadriganuevo/meshes/Eng_RTD_Link.fbx"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Eng_RTD_Joint"
+    type="revolute">
+    <origin
+      xyz="0 -0.10704 0"
+      rpy="0 0 0" />
+    <parent
+      link="RTD_Link" />
+    <child
+      link="Eng_RTD_Link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="5"
+      velocity="10" />
+    <mimic joint="RDD_Joint" multiplier="1.0" offset="0.0"/>
+  </joint>
+  <link
+    name="RDI_Link">
+    <inertial>
+      <origin
+        xyz="-1.58404960554082E-06 0.0230336159221717 -1.28868644355684E-06"
+        rpy="0 0 0" />
+      <mass
+        value="5.75" />
+      <inertia
+        ixx="0.05767785697"
+        ixy="-1.186E-08"
+        ixz="-5.488E-08"
+        iyy="0.1030993089"
+        iyz="-7.89E-09"
+        izz="0.05767787693" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="cuadriganuevo/meshes/RDI_Link.fbx"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+          <cylinder radius="0.175" length="0.125"/>  
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="RDI_Joint"
+    type="revolute">
+    <origin
+      xyz="0.25143 -0.28038 -0.18225"
+      rpy="0 0 0" />
+    <parent
+      link="Chasis_link" />
+    <child
+      link="RDI_Link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="5"
+      velocity="10" />
+  </joint>
+  <link
+    name="Eng_RDI_Link">
+    <inertial>
+      <origin
+        xyz="6.89892587502072E-13 -0.00220000000000001 1.94289029309402E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.0396928814182625" />
+      <inertia
+        ixx="3.01382510782999E-05"
+        ixy="-9.41048607849805E-15"
+        ixz="-1.38701645112892E-20"
+        iyy="6.01494219716196E-05"
+        iyz="-2.60541504865301E-17"
+        izz="3.01382510783E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="cuadriganuevo/meshes/Eng_RDI_Link.fbx"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="cuadriganuevo/meshes/Eng_RDI_Link.fbx"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Eng_RDI_Joint"
+    type="revolute">
+    <origin
+      xyz="0 0.10811 0"
+      rpy="0 0.017186 0" />
+    <parent
+      link="RDI_Link" />
+    <child
+      link="Eng_RDI_Link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="5"
+      velocity="10" />
+    <mimic joint="RDI_Joint" multiplier="1.0" offset="0.0"/>
+  </joint>
+  <link
+    name="RTI_Link">
+    <inertial>
+      <origin
+        xyz="1.63770636382732E-06 -0.0233407757253022 -1.22747985009664E-06"
+        rpy="0 0 0" />
+      <mass
+        value="5.75" />
+      <inertia
+        ixx="0.05766999082"
+        ixy="-1.246E-08"
+        ixz="5.392E-08"
+        iyy="0.1031307224"
+        iyz="9.32E-09"
+        izz="0.05767001977" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="cuadriganuevo/meshes/RTI_Link.fbx"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+         <cylinder radius="0.175" length="0.125"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="RTI_Joint"
+    type="revolute">
+    <origin
+      xyz="-0.24786 -0.28067 -0.17367"
+      rpy="0 0 3.1416" />
+    <parent
+      link="Chasis_link" />
+    <child
+      link="RTI_Link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="5"
+      velocity="10" />
+    <mimic joint="RDD_Joint" multiplier="1.0" offset="0.0"/>
+  </joint>
+  <link
+    name="Eng_RTI_Link">
+    <inertial>
+      <origin
+        xyz="6.82259804207774E-13 -0.00220000000000004 -4.50889325875892E-13"
+        rpy="0 0 0" />
+      <mass
+        value="0.0396928814182624" />
+      <inertia
+        ixx="3.01382510782998E-05"
+        ixy="-9.30623341197964E-15"
+        ixz="1.52382178468745E-20"
+        iyy="6.01494219716194E-05"
+        iyz="6.1507257034803E-15"
+        izz="3.01382510782999E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="cuadriganuevo/meshes/Eng_RTI_Link.fbx"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="cuadriganuevo/meshes/Eng_RTI_Link.fbx"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Eng_RTI_Joint"
+    type="revolute">
+    <origin
+      xyz="0 -0.108384587989609 0"
+      rpy="0 0 3.14159265358979" />
+    <parent
+      link="RTI_Link" />
+    <child
+      link="Eng_RTI_Link" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="5"
+      velocity="10" />
+    <mimic joint="RDD_Joint" multiplier="1.0" offset="0.0"/>
+  </joint>
+  <link 
+    name="Cadena_Derch_Link">
+    <visual>
+      <geometry>
+        <mesh filename="cuadriganuevo/meshes/Cadena_Derch_Link.fbx" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual> 
+  </link>
+  <joint 
+    name="Cadena_Derch_Joint" 
+    type="fixed">
+    <parent 
+      link="Chasis_link"/>
+    <child 
+      link="Cadena_Derch_Link"/>
+    <origin 
+      xyz="-0.312 0 -0.246" 
+      rpy="0 0 0"/>
+  </joint>
+    <link 
+    name="Cadena_Izq_Link">
+    <visual>
+      <geometry>
+        <mesh filename="cuadriganuevo/meshes/Cadena_Izq_Link.fbx" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual> 
+  </link>
+  <joint 
+    name="Cadena_Izq_Joint" 
+    type="fixed">
+    <parent 
+      link="Chasis_link"/>
+    <child 
+      link="Cadena_Izq_Link"/>
+    <origin 
+      xyz="-0.312 -0.1837 -0.246" 
+      rpy="0 0 0"/>
+  </joint>
+</robot>
