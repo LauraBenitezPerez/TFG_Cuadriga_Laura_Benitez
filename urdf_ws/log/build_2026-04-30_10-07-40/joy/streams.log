@@ -1,0 +1,61 @@
+[0.188s] Invoking command in '/home/laura_benitez/urdf_ws/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/joy -- -j16 -l16
+[1.426s] [ 16%] [32mBuilding CXX object CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o[0m
+[1.427s] [ 33%] [32mBuilding CXX object CMakeFiles/joy_node.dir/rclcpp_components/node_main_joy_node.cpp.o[0m
+[1.427s] [ 50%] [32mBuilding CXX object CMakeFiles/joy.dir/src/joy.cpp.o[0m
+[3.305s] [ 66%] [32m[1mLinking CXX executable joy_enumerate_devices[0m
+[4.067s] [ 66%] Built target joy_enumerate_devices
+[10.586s] [01m[K/home/laura_benitez/urdf_ws/src/joy/src/joy.cpp:[m[K In member function ‘[01m[Kvoid joy::Joy::eventThread()[m[K’:
+[10.586s] [01m[K/home/laura_benitez/urdf_ws/src/joy/src/joy.cpp:489:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwheel_separation[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.586s]   489 |       float [01;35m[Kwheel_separation[m[K = 1.35;
+[10.586s]       |             [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[10.586s] [01m[K/home/laura_benitez/urdf_ws/src/joy/src/joy.cpp:512:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kthrottle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.586s]   512 |       float [01;35m[Kthrottle[m[K = rad2per_throttle*(left_wheels + rigth_wheels)/wheels_radius;
+[10.586s]       |             [01;35m[K^~~~~~~~[m[K
+[10.586s] [01m[K/home/laura_benitez/urdf_ws/src/joy/src/joy.cpp:513:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksteer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.587s]   513 |       float [01;35m[Ksteer[m[K = rad2per_steer*(-rigth_wheels + left_wheels)/wheels_radius;
+[10.587s]       |             [01;35m[K^~~~~[m[K
+[10.726s] [ 83%] [32m[1mLinking CXX executable joy_node[0m
+[11.366s] [ 83%] Built target joy_node
+[16.569s] [100%] [32m[1mLinking CXX shared library libjoy.so[0m
+[17.140s] [100%] Built target joy
+[17.171s] Invoked command in '/home/laura_benitez/urdf_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/joy -- -j16 -l16
+[17.190s] Invoking command in '/home/laura_benitez/urdf_ws/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/joy
+[17.224s] -- Install configuration: ""
+[17.241s] -- Installing: /home/laura_benitez/urdf_ws/install/joy/lib/libjoy.so
+[17.278s] -- Set runtime path of "/home/laura_benitez/urdf_ws/install/joy/lib/libjoy.so" to ""
+[17.288s] -- Installing: /home/laura_benitez/urdf_ws/install/joy/lib/joy/joy_node
+[17.300s] -- Set runtime path of "/home/laura_benitez/urdf_ws/install/joy/lib/joy/joy_node" to ""
+[17.307s] -- Installing: /home/laura_benitez/urdf_ws/install/joy/lib/joy/joy_enumerate_devices
+[17.309s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/include/joy
+[17.309s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/include/joy/joy
+[17.310s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/include/joy/joy/joy.hpp
+[17.310s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/include/joy/joy/joy.hpp:Zone.Identifier
+[17.311s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/config
+[17.311s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/config/joy-params.yaml
+[17.312s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/config/joy-params.yaml:Zone.Identifier
+[17.312s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/launch
+[17.312s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/launch/joy-composed-launch.py
+[17.313s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/launch/joy-composed-launch.py:Zone.Identifier
+[17.313s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/launch/joy-launch_test.py
+[17.313s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/launch/joy-launch_test.py:Zone.Identifier
+[17.314s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+[17.314s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+[17.314s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/environment/ament_prefix_path.sh
+[17.314s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/environment/ament_prefix_path.dsv
+[17.315s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/environment/path.sh
+[17.315s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/environment/path.dsv
+[17.316s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/local_setup.bash
+[17.316s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/local_setup.sh
+[17.316s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/local_setup.zsh
+[17.316s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/local_setup.dsv
+[17.317s] -- Installing: /home/laura_benitez/urdf_ws/install/joy/share/joy/package.dsv
+[17.325s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/ament_index/resource_index/packages/joy
+[17.325s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+[17.336s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/cmake/export_joyExport.cmake
+[17.336s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake
+[17.337s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake
+[17.337s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.337s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/cmake/joyConfig.cmake
+[17.337s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/cmake/joyConfig-version.cmake
+[17.338s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/package.xml
+[17.341s] Invoked command in '/home/laura_benitez/urdf_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/joy

@@ -1,0 +1,37 @@
+[3.579s] Invoking command in '/home/laura_benitez/urdf_ws/src/gpx_loader': CMAKE_PREFIX_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/urdf_ws/install/joy:/home/laura_benitez/urdf_ws/install/cuadriganuevo:/home/laura_benitez/urdf_ws/install/cuadriga:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller LD_LIBRARY_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:/home/laura_benitez/urdf_ws/install/joy/lib:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/laura_benitez/urdf_ws/build/gpx_loader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gpx_loader build --build-base /home/laura_benitez/urdf_ws/build/gpx_loader/build install --record /home/laura_benitez/urdf_ws/build/gpx_loader/install.log --single-version-externally-managed install_data
+[3.988s] running egg_info
+[3.999s] creating ../../build/gpx_loader/gpx_loader.egg-info
+[4.000s] writing ../../build/gpx_loader/gpx_loader.egg-info/PKG-INFO
+[4.000s] writing dependency_links to ../../build/gpx_loader/gpx_loader.egg-info/dependency_links.txt
+[4.001s] writing entry points to ../../build/gpx_loader/gpx_loader.egg-info/entry_points.txt
+[4.001s] writing requirements to ../../build/gpx_loader/gpx_loader.egg-info/requires.txt
+[4.001s] writing top-level names to ../../build/gpx_loader/gpx_loader.egg-info/top_level.txt
+[4.002s] writing manifest file '../../build/gpx_loader/gpx_loader.egg-info/SOURCES.txt'
+[4.005s] reading manifest file '../../build/gpx_loader/gpx_loader.egg-info/SOURCES.txt'
+[4.006s] writing manifest file '../../build/gpx_loader/gpx_loader.egg-info/SOURCES.txt'
+[4.006s] running build
+[4.007s] running build_py
+[4.007s] creating /home/laura_benitez/urdf_ws/build/gpx_loader/build
+[4.007s] creating /home/laura_benitez/urdf_ws/build/gpx_loader/build/lib
+[4.007s] creating /home/laura_benitez/urdf_ws/build/gpx_loader/build/lib/gpx_loader
+[4.008s] copying gpx_loader/gpx_loader_node.py -> /home/laura_benitez/urdf_ws/build/gpx_loader/build/lib/gpx_loader
+[4.018s] copying gpx_loader/__init__.py -> /home/laura_benitez/urdf_ws/build/gpx_loader/build/lib/gpx_loader
+[4.019s] running install
+[4.019s] running install_lib
+[4.021s] creating /home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages/gpx_loader
+[4.021s] copying /home/laura_benitez/urdf_ws/build/gpx_loader/build/lib/gpx_loader/gpx_loader_node.py -> /home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages/gpx_loader
+[4.030s] copying /home/laura_benitez/urdf_ws/build/gpx_loader/build/lib/gpx_loader/__init__.py -> /home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages/gpx_loader
+[4.032s] byte-compiling /home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages/gpx_loader/gpx_loader_node.py to gpx_loader_node.cpython-310.pyc
+[4.034s] byte-compiling /home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages/gpx_loader/__init__.py to __init__.cpython-310.pyc
+[4.035s] running install_data
+[4.035s] creating /home/laura_benitez/urdf_ws/install/gpx_loader/share/ament_index
+[4.035s] creating /home/laura_benitez/urdf_ws/install/gpx_loader/share/ament_index/resource_index
+[4.035s] creating /home/laura_benitez/urdf_ws/install/gpx_loader/share/ament_index/resource_index/packages
+[4.036s] copying resource/gpx_loader -> /home/laura_benitez/urdf_ws/install/gpx_loader/share/ament_index/resource_index/packages
+[4.036s] copying package.xml -> /home/laura_benitez/urdf_ws/install/gpx_loader/share/gpx_loader
+[4.037s] running install_egg_info
+[4.041s] Copying ../../build/gpx_loader/gpx_loader.egg-info to /home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages/gpx_loader-0.0.0-py3.10.egg-info
+[4.049s] running install_scripts
+[4.076s] Installing gpx_loader_node script to /home/laura_benitez/urdf_ws/install/gpx_loader/lib/gpx_loader
+[4.077s] writing list of installed files to '/home/laura_benitez/urdf_ws/build/gpx_loader/install.log'
+[4.122s] Invoked command in '/home/laura_benitez/urdf_ws/src/gpx_loader' returned '0': CMAKE_PREFIX_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/urdf_ws/install/joy:/home/laura_benitez/urdf_ws/install/cuadriganuevo:/home/laura_benitez/urdf_ws/install/cuadriga:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller LD_LIBRARY_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:/home/laura_benitez/urdf_ws/install/joy/lib:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/laura_benitez/urdf_ws/build/gpx_loader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gpx_loader build --build-base /home/laura_benitez/urdf_ws/build/gpx_loader/build install --record /home/laura_benitez/urdf_ws/build/gpx_loader/install.log --single-version-externally-managed install_data

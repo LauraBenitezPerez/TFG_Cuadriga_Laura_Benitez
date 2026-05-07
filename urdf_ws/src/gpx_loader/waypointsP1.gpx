@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="https://gpx.studio" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>New file 1</name>
+    <author>
+      <name>gpx.studio</name>
+      <link href="https://gpx.studio"/>
+    </author>
+  </metadata>
+  <wpt lat="36.717083" lon="-4.489332">
+    <ele>53.00112574077317</ele>
+    <name>punto1</name>
+  </wpt>
+  <wpt lat="36.717038" lon="-4.489455">
+    <ele>53.61564945648545</ele>
+    <name>punto 3</name>
+  </wpt>
+  <wpt lat="36.717011" lon="-4.489332">
+    <ele>53.43689066986627</ele>
+    <name>punto2</name>
+  </wpt>
+  <wpt lat="36.716866" lon="-4.489648">
+    <ele>53.118398132013</ele>
+    <name>Esquina</name>
+  </wpt>
+  <wpt lat="36.716869" lon="-4.489253">
+    <ele>53.92604467769173</ele>
+    <name>esquina2</name>
+  </wpt>
+  <trk>
+    <name>New file 1</name>
+    <trkseg>
+      <trkpt lat="36.717037355283324" lon="-4.489459265845284">
+        <ele>53.62933785659385</ele>
+      </trkpt>
+      <trkpt lat="36.71686346382728" lon="-4.489651357224858">
+        <ele>53.10621327615888</ele>
+      </trkpt>
+      <trkpt lat="36.71686744607862" lon="-4.489253926784869">
+        <ele>53.935858677456345</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

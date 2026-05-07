@@ -1,0 +1,73 @@
+[6.495s] Invoking command in '/home/laura_benitez/urdf_ws/src/ROS-TCP-Endpoint-main-ros2': PYTHONPATH=/home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build install --record /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[7.351s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.352s]   warnings.warn(
+[7.369s] running egg_info
+[7.370s] creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info
+[7.371s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[7.373s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[7.374s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[7.375s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[7.375s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[7.376s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[7.392s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[7.392s] adding license file 'LICENSE'
+[7.392s] adding license file 'LICENSE:Zone.Identifier'
+[7.392s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[7.392s] running build
+[7.393s] running build_py
+[7.393s] creating /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build
+[7.393s] creating /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib
+[7.393s] creating /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.393s] copying ros_tcp_endpoint/client.py -> /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.417s] copying ros_tcp_endpoint/communication.py -> /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.437s] copying ros_tcp_endpoint/default_server_endpoint.py -> /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.457s] copying ros_tcp_endpoint/exceptions.py -> /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.478s] copying ros_tcp_endpoint/publisher.py -> /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.499s] copying ros_tcp_endpoint/server.py -> /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.521s] copying ros_tcp_endpoint/service.py -> /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.546s] copying ros_tcp_endpoint/subscriber.py -> /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.569s] copying ros_tcp_endpoint/tcp_sender.py -> /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.605s] copying ros_tcp_endpoint/thread_pauser.py -> /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.620s] copying ros_tcp_endpoint/unity_service.py -> /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.642s] copying ros_tcp_endpoint/__init__.py -> /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.655s] running install
+[7.655s] running install_lib
+[7.657s] creating /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[7.657s] copying /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[7.658s] copying /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[7.659s] copying /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[7.660s] copying /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[7.661s] copying /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[7.663s] copying /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[7.664s] copying /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[7.664s] copying /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[7.665s] copying /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[7.674s] copying /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[7.675s] copying /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[7.675s] copying /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[7.687s] byte-compiling /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/client.py to client.cpython-310.pyc
+[7.690s] byte-compiling /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-310.pyc
+[7.693s] byte-compiling /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-310.pyc
+[7.695s] byte-compiling /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-310.pyc
+[7.697s] byte-compiling /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-310.pyc
+[7.699s] byte-compiling /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/server.py to server.cpython-310.pyc
+[7.704s] byte-compiling /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/service.py to service.cpython-310.pyc
+[7.706s] byte-compiling /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-310.pyc
+[7.708s] byte-compiling /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-310.pyc
+[7.712s] byte-compiling /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-310.pyc
+[7.714s] byte-compiling /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-310.pyc
+[7.716s] byte-compiling /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-310.pyc
+[7.717s] running install_data
+[7.718s] creating /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ament_index
+[7.718s] creating /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ament_index/resource_index
+[7.719s] creating /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[7.719s] copying resource/ros_tcp_endpoint -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[7.720s] copying package.xml -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[7.721s] creating /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[7.721s] copying launch/endpoint.py -> /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[7.736s] running install_egg_info
+[7.739s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+[7.746s] running install_scripts
+[7.774s] Installing default_server_endpoint script to /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[7.775s] writing list of installed files to '/home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/install.log'
+[7.820s] Invoked command in '/home/laura_benitez/urdf_ws/src/ROS-TCP-Endpoint-main-ros2' returned '0': PYTHONPATH=/home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build install --record /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data

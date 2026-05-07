@@ -1,0 +1,21 @@
+[4.570s] Invoking command in '/home/laura_benitez/urdf_ws/src/gpx_loader': AMENT_PREFIX_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/laura_benitez/urdf_ws/build/gpx_loader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages:/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gpx_loader build --build-base /home/laura_benitez/urdf_ws/build/gpx_loader/build install --record /home/laura_benitez/urdf_ws/build/gpx_loader/install.log --single-version-externally-managed install_data
+[5.224s] running egg_info
+[5.225s] writing ../../build/gpx_loader/gpx_loader.egg-info/PKG-INFO
+[5.225s] writing dependency_links to ../../build/gpx_loader/gpx_loader.egg-info/dependency_links.txt
+[5.225s] writing entry points to ../../build/gpx_loader/gpx_loader.egg-info/entry_points.txt
+[5.226s] writing requirements to ../../build/gpx_loader/gpx_loader.egg-info/requires.txt
+[5.226s] writing top-level names to ../../build/gpx_loader/gpx_loader.egg-info/top_level.txt
+[5.232s] reading manifest file '../../build/gpx_loader/gpx_loader.egg-info/SOURCES.txt'
+[5.242s] writing manifest file '../../build/gpx_loader/gpx_loader.egg-info/SOURCES.txt'
+[5.242s] running build
+[5.242s] running build_py
+[5.246s] running install
+[5.246s] running install_lib
+[5.250s] running install_data
+[5.252s] running install_egg_info
+[5.257s] removing '/home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages/gpx_loader-0.0.0-py3.10.egg-info' (and everything under it)
+[5.261s] Copying ../../build/gpx_loader/gpx_loader.egg-info to /home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages/gpx_loader-0.0.0-py3.10.egg-info
+[5.271s] running install_scripts
+[5.307s] Installing gpx_loader_node script to /home/laura_benitez/urdf_ws/install/gpx_loader/lib/gpx_loader
+[5.308s] writing list of installed files to '/home/laura_benitez/urdf_ws/build/gpx_loader/install.log'
+[5.393s] Invoked command in '/home/laura_benitez/urdf_ws/src/gpx_loader' returned '0': AMENT_PREFIX_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/laura_benitez/urdf_ws/build/gpx_loader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages:/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gpx_loader build --build-base /home/laura_benitez/urdf_ws/build/gpx_loader/build install --record /home/laura_benitez/urdf_ws/build/gpx_loader/install.log --single-version-externally-managed install_data

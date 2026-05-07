@@ -1,0 +1,19 @@
+[6.729s] Invoking command in '/home/laura_benitez/urdf_ws/src/kml_exporter': PYTHONPATH=/home/laura_benitez/urdf_ws/build/kml_exporter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/kml_exporter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kml_exporter build --build-base /home/laura_benitez/urdf_ws/build/kml_exporter/build install --record /home/laura_benitez/urdf_ws/build/kml_exporter/install.log --single-version-externally-managed install_data
+[7.211s] running egg_info
+[7.213s] writing ../../build/kml_exporter/kml_exporter.egg-info/PKG-INFO
+[7.214s] writing dependency_links to ../../build/kml_exporter/kml_exporter.egg-info/dependency_links.txt
+[7.215s] writing entry points to ../../build/kml_exporter/kml_exporter.egg-info/entry_points.txt
+[7.216s] writing requirements to ../../build/kml_exporter/kml_exporter.egg-info/requires.txt
+[7.217s] writing top-level names to ../../build/kml_exporter/kml_exporter.egg-info/top_level.txt
+[7.218s] reading manifest file '../../build/kml_exporter/kml_exporter.egg-info/SOURCES.txt'
+[7.227s] writing manifest file '../../build/kml_exporter/kml_exporter.egg-info/SOURCES.txt'
+[7.227s] running build
+[7.227s] running install
+[7.228s] running install_data
+[7.229s] running install_egg_info
+[7.233s] removing '/home/laura_benitez/urdf_ws/install/kml_exporter/lib/python3.10/site-packages/kml_exporter-0.0.0-py3.10.egg-info' (and everything under it)
+[7.236s] Copying ../../build/kml_exporter/kml_exporter.egg-info to /home/laura_benitez/urdf_ws/install/kml_exporter/lib/python3.10/site-packages/kml_exporter-0.0.0-py3.10.egg-info
+[7.244s] running install_scripts
+[7.275s] Installing extract_to_kml script to /home/laura_benitez/urdf_ws/install/kml_exporter/lib/kml_exporter
+[7.276s] writing list of installed files to '/home/laura_benitez/urdf_ws/build/kml_exporter/install.log'
+[7.354s] Invoked command in '/home/laura_benitez/urdf_ws/src/kml_exporter' returned '0': PYTHONPATH=/home/laura_benitez/urdf_ws/build/kml_exporter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/kml_exporter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kml_exporter build --build-base /home/laura_benitez/urdf_ws/build/kml_exporter/build install --record /home/laura_benitez/urdf_ws/build/kml_exporter/install.log --single-version-externally-managed install_data

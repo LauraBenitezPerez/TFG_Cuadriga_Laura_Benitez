@@ -1,0 +1,6 @@
+Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/laura_benitez/urdf_ws/src/cuadriganuevo -DCMAKE_INSTALL_PREFIX=/home/laura_benitez/urdf_ws/install/cuadriganuevo
+Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/laura_benitez/urdf_ws/src/cuadriganuevo -DCMAKE_INSTALL_PREFIX=/home/laura_benitez/urdf_ws/install/cuadriganuevo
+Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriganuevo -- -j16 -l16
+Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriganuevo -- -j16 -l16
+Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cuadriganuevo
+Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cuadriganuevo

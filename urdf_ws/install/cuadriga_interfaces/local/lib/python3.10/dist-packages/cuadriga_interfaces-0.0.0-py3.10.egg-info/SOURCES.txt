@@ -1,0 +1,9 @@
+setup.py
+cuadriga_interfaces/__init__.py
+cuadriga_interfaces.egg-info/PKG-INFO
+cuadriga_interfaces.egg-info/SOURCES.txt
+cuadriga_interfaces.egg-info/dependency_links.txt
+cuadriga_interfaces.egg-info/top_level.txt
+cuadriga_interfaces/msg/__init__.py
+cuadriga_interfaces/msg/_gpx_path.py
+cuadriga_interfaces/msg/_gpx_point.py

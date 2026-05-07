@@ -1,0 +1,25 @@
+[13.818s] Invoking command in '/home/laura_benitez/urdf_ws/src/ROS-TCP-Endpoint-main-ros2': PYTHONPATH=/home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build install --record /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[14.951s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[14.952s]   warnings.warn(
+[14.974s] running egg_info
+[14.976s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[15.012s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[15.040s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[15.043s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[15.043s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[15.047s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[15.066s] adding license file 'LICENSE'
+[15.066s] adding license file 'LICENSE:Zone.Identifier'
+[15.068s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[15.068s] running build
+[15.068s] running build_py
+[15.077s] running install
+[15.079s] running install_lib
+[15.100s] running install_data
+[15.101s] running install_egg_info
+[15.108s] removing '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)
+[15.115s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+[15.130s] running install_scripts
+[15.191s] Installing default_server_endpoint script to /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[15.193s] writing list of installed files to '/home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/install.log'
+[15.301s] Invoked command in '/home/laura_benitez/urdf_ws/src/ROS-TCP-Endpoint-main-ros2' returned '0': PYTHONPATH=/home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build install --record /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data

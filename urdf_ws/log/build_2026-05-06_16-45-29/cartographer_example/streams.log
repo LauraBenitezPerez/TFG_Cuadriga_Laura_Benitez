@@ -1,0 +1,20 @@
+[0.189s] Invoking command in '/home/laura_benitez/urdf_ws/build/cartographer_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/kml_exporter:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cartographer_example -- -j16 -l16
+[1.982s] Invoked command in '/home/laura_benitez/urdf_ws/build/cartographer_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/kml_exporter:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cartographer_example -- -j16 -l16
+[1.986s] Invoking command in '/home/laura_benitez/urdf_ws/build/cartographer_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/kml_exporter:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cartographer_example
+[2.783s] -- Install configuration: ""
+[2.783s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cartographer_example/share/ament_index/resource_index/package_run_dependencies/cartographer_example
+[2.784s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cartographer_example/share/ament_index/resource_index/parent_prefix_path/cartographer_example
+[2.784s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/environment/ament_prefix_path.sh
+[2.784s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/environment/ament_prefix_path.dsv
+[2.785s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/environment/path.sh
+[2.786s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/environment/path.dsv
+[2.786s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/local_setup.bash
+[2.786s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/local_setup.sh
+[2.786s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/local_setup.zsh
+[2.787s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/local_setup.dsv
+[2.787s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/package.dsv
+[2.787s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cartographer_example/share/ament_index/resource_index/packages/cartographer_example
+[2.787s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/cmake/cartographer_exampleConfig.cmake
+[2.788s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/cmake/cartographer_exampleConfig-version.cmake
+[2.789s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/package.xml
+[2.885s] Invoked command in '/home/laura_benitez/urdf_ws/build/cartographer_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/kml_exporter:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cartographer_example

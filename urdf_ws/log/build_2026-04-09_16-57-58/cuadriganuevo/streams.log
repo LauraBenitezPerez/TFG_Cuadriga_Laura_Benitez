@@ -1,0 +1,45 @@
+[0.191s] Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriganuevo -- -j16 -l16
+[1.622s] Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriganuevo -- -j16 -l16
+[1.655s] Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cuadriganuevo
+[2.326s] -- Install configuration: ""
+[2.326s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//launch
+[2.327s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//launch/display.launch
+[2.327s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//launch/display.launch.py
+[2.327s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes
+[2.327s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Cadena_Derch_Link.STL
+[2.327s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Cadena_Izq_Link.STL
+[2.328s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Chasis_link.STL
+[2.328s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Eng_RDD_Link.STL
+[2.328s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Eng_RDI_Link.STL
+[2.328s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Eng_RTD_Link.STL
+[2.328s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Eng_RTI_Link.STL
+[2.328s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/E_Central_Derch_Link.STL
+[2.328s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/E_Central_Izq_Link.STL
+[2.328s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Motor_D_Link.STL
+[2.328s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Motor_I_Link.STL
+[2.328s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/RDD_Link.STL
+[2.328s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/RDI_Link.STL
+[2.328s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/RTD_Link.STL
+[2.329s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/RTI_Link.STL
+[2.329s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//urdf
+[2.329s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//urdf/cuadriganuevo.csv
+[2.329s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//urdf/cuadriganuevo.urdf
+[2.329s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//config
+[2.329s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//config/joint_names_CuadrigaNuevo.SLDASM.yaml
+[2.329s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//config/params.yaml
+[2.329s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/ament_index/resource_index/package_run_dependencies/cuadriganuevo
+[2.329s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/ament_index/resource_index/parent_prefix_path/cuadriganuevo
+[2.329s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/environment/ament_prefix_path.sh
+[2.329s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/environment/ament_prefix_path.dsv
+[2.330s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/environment/path.sh
+[2.330s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/environment/path.dsv
+[2.330s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/local_setup.bash
+[2.330s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/local_setup.sh
+[2.330s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/local_setup.zsh
+[2.330s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/local_setup.dsv
+[2.330s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.dsv
+[2.330s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/ament_index/resource_index/packages/cuadriganuevo
+[2.330s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/cmake/cuadriganuevoConfig.cmake
+[2.330s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/cmake/cuadriganuevoConfig-version.cmake
+[2.330s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.xml
+[2.346s] Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cuadriganuevo

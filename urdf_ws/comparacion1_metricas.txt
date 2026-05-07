@@ -1,0 +1,5 @@
+Comparación trayectoria real vs simulada
+Error medio: 1.400 m
+Error máximo: 2.743 m
+Error mínimo: 0.008 m
+Desviación típica: 0.687 m

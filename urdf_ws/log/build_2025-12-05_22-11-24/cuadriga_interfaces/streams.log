@@ -1,0 +1,162 @@
+[0.177s] Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriga_interfaces -- -j16 -l16
+[0.926s] [  3%] Built target cuadriga_interfaces__cpp
+[0.974s] [ 12%] Built target cuadriga_interfaces__rosidl_generator_c
+[1.113s] [ 12%] Built target ament_cmake_python_copy_cuadriga_interfaces
+[1.127s] [ 38%] Built target cuadriga_interfaces__rosidl_typesupport_cpp
+[1.128s] [ 41%] Built target cuadriga_interfaces__rosidl_typesupport_introspection_cpp
+[1.128s] [ 41%] Built target cuadriga_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.165s] [ 64%] Built target cuadriga_interfaces__rosidl_typesupport_c
+[1.165s] [ 64%] Built target cuadriga_interfaces__rosidl_typesupport_introspection_c
+[1.166s] [ 70%] Built target cuadriga_interfaces__rosidl_typesupport_fastrtps_c
+[1.263s] [ 70%] Built target cuadriga_interfaces
+[1.379s] [ 74%] Built target cuadriga_interfaces__py
+[1.573s] [ 80%] Built target cuadriga_interfaces__rosidl_generator_py
+[1.779s] [ 87%] Built target cuadriga_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.781s] [ 93%] Built target cuadriga_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.783s] [100%] Built target cuadriga_interfaces__rosidl_typesupport_c__pyext
+[1.802s] running egg_info
+[1.802s] writing cuadriga_interfaces.egg-info/PKG-INFO
+[1.803s] writing dependency_links to cuadriga_interfaces.egg-info/dependency_links.txt
+[1.803s] writing top-level names to cuadriga_interfaces.egg-info/top_level.txt
+[1.831s] reading manifest file 'cuadriga_interfaces.egg-info/SOURCES.txt'
+[1.840s] writing manifest file 'cuadriga_interfaces.egg-info/SOURCES.txt'
+[1.891s] [100%] Built target ament_cmake_python_build_cuadriga_interfaces_egg
+[1.928s] Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriga_interfaces -- -j16 -l16
+[1.946s] Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cuadriga_interfaces
+[1.981s] -- Install configuration: ""
+[1.981s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/ament_index/resource_index/rosidl_interfaces/cuadriga_interfaces
+[1.981s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces
+[1.982s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg
+[1.982s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail
+[1.982s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__functions.c
+[1.982s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__functions.h
+[1.982s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__struct.h
+[1.982s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__type_support.h
+[1.982s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__functions.c
+[1.983s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__functions.h
+[1.983s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__struct.h
+[1.983s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__type_support.h
+[1.983s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/gpx_path.h
+[1.984s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/gpx_point.h
+[1.984s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.984s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/library_path.sh
+[1.984s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/library_path.dsv
+[1.992s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_generator_c.so
+[1.993s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces
+[1.993s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg
+[1.993s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail
+[1.993s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__rosidl_typesupport_fastrtps_c.h
+[1.993s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__rosidl_typesupport_fastrtps_c.h
+[1.994s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.001s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.002s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces
+[2.002s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg
+[2.002s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail
+[2.003s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__rosidl_typesupport_introspection_c.h
+[2.003s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__type_support.c
+[2.003s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__rosidl_typesupport_introspection_c.h
+[2.003s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__type_support.c
+[2.004s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.011s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_introspection_c.so
+[2.018s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_c.so
+[2.018s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces
+[2.018s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg
+[2.018s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail
+[2.018s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__builder.hpp
+[2.019s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__struct.hpp
+[2.019s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__traits.hpp
+[2.019s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__type_support.hpp
+[2.019s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__builder.hpp
+[2.019s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__struct.hpp
+[2.019s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__traits.hpp
+[2.020s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__type_support.hpp
+[2.020s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/gpx_path.hpp
+[2.020s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/gpx_point.hpp
+[2.020s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.020s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces
+[2.020s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg
+[2.020s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail
+[2.021s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/dds_fastrtps
+[2.021s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__rosidl_typesupport_fastrtps_cpp.hpp
+[2.021s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__rosidl_typesupport_fastrtps_cpp.hpp
+[2.021s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.022s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.022s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces
+[2.022s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg
+[2.022s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail
+[2.023s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__rosidl_typesupport_introspection_cpp.hpp
+[2.023s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__type_support.cpp
+[2.023s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__rosidl_typesupport_introspection_cpp.hpp
+[2.023s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__type_support.cpp
+[2.024s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.025s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_cpp.so
+[2.025s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/pythonpath.sh
+[2.026s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/pythonpath.dsv
+[2.026s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces-0.0.0-py3.10.egg-info
+[2.026s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.027s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.029s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.030s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.031s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces
+[2.032s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.032s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.032s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.032s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/libcuadriga_interfaces__rosidl_generator_py.so
+[2.032s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg
+[2.033s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg/_gpx_path.py
+[2.033s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg/_gpx_path_s.c
+[2.033s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg/_gpx_point.py
+[2.033s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg/_gpx_point_s.c
+[2.033s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg/__init__.py
+[2.033s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/_cuadriga_interfaces_s.ep.rosidl_typesupport_c.c
+[2.034s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/_cuadriga_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.034s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/_cuadriga_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.034s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/__init__.py
+[2.140s] Listing '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces'...
+[2.141s] Listing '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg'...
+[2.154s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.163s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.172s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.182s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_generator_py.so
+[2.182s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/msg/GPXPath.idl
+[2.183s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/msg/GPXPath.msg
+[2.183s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/ament_index/resource_index/package_run_dependencies/cuadriga_interfaces
+[2.183s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/ament_index/resource_index/parent_prefix_path/cuadriga_interfaces
+[2.184s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/ament_prefix_path.sh
+[2.184s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/ament_prefix_path.dsv
+[2.184s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/path.sh
+[2.185s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/path.dsv
+[2.185s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/local_setup.bash
+[2.185s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/local_setup.sh
+[2.185s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/local_setup.zsh
+[2.186s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/local_setup.dsv
+[2.186s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/package.dsv
+[2.195s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/ament_index/resource_index/packages/cuadriga_interfaces
+[2.206s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_generator_cExport.cmake
+[2.207s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.218s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.218s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.229s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.230s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.241s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_cExport.cmake
+[2.241s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.251s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_generator_cppExport.cmake
+[2.261s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.261s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.272s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.272s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.283s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_cppExport.cmake
+[2.283s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.294s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_generator_pyExport.cmake
+[2.295s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.295s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.295s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.296s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.296s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.296s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.296s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.296s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.296s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfacesConfig.cmake
+[2.297s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfacesConfig-version.cmake
+[2.297s] -- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/package.xml
+[2.312s] Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cuadriga_interfaces

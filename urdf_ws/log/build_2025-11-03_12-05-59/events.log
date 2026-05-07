@@ -1,0 +1,836 @@
+[0.000000] (-) TimerEvent: {}
+[0.000306] (cuadriga_interfaces) JobQueued: {'identifier': 'cuadriga_interfaces', 'dependencies': OrderedDict()}
+[0.000370] (cuadriganuevo) JobQueued: {'identifier': 'cuadriganuevo', 'dependencies': OrderedDict()}
+[0.000415] (joy) JobQueued: {'identifier': 'joy', 'dependencies': OrderedDict()}
+[0.000475] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.000514] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.000559] (cuadriga) JobQueued: {'identifier': 'cuadriga', 'dependencies': OrderedDict([('cuadriga_interfaces', '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces')])}
+[0.000755] (cuadriga_interfaces) JobStarted: {'identifier': 'cuadriga_interfaces'}
+[0.082016] (cuadriganuevo) JobStarted: {'identifier': 'cuadriganuevo'}
+[0.091323] (joy) JobStarted: {'identifier': 'joy'}
+[0.100449] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.100886] (-) TimerEvent: {}
+[0.134679] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[0.149065] (cuadriga_interfaces) JobProgress: {'identifier': 'cuadriga_interfaces', 'progress': 'cmake'}
+[0.163474] (cuadriga_interfaces) JobProgress: {'identifier': 'cuadriga_interfaces', 'progress': 'build'}
+[0.164143] (cuadriga_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'laura_benitez'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laura_benitez'), ('OLDPWD', '/home/laura_benitez'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/laura_benitez/rosgame_ws/install:/home/laura_benitez/cypr_ws/install:/home/laura_benitez/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laura_benitez'), ('NAME', 'DESKTOP-4ER2JO7'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/laura_benitez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/laura/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/laura/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laura_benitez/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.171465] (cuadriganuevo) JobProgress: {'identifier': 'cuadriganuevo', 'progress': 'cmake'}
+[0.184325] (cuadriganuevo) JobProgress: {'identifier': 'cuadriganuevo', 'progress': 'build'}
+[0.184766] (cuadriganuevo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/laura_benitez/urdf_ws/build/cuadriganuevo', '--', '-j16', '-l16'], 'cwd': '/home/laura_benitez/urdf_ws/build/cuadriganuevo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'laura_benitez'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laura_benitez'), ('OLDPWD', '/home/laura_benitez'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/laura_benitez/rosgame_ws/install:/home/laura_benitez/cypr_ws/install:/home/laura_benitez/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laura_benitez'), ('NAME', 'DESKTOP-4ER2JO7'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/laura_benitez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/laura/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/laura/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/laura_benitez/urdf_ws/build/cuadriganuevo'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laura_benitez/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.188893] (joy) JobProgress: {'identifier': 'joy', 'progress': 'cmake'}
+[0.201521] (joy) JobProgress: {'identifier': 'joy', 'progress': 'build'}
+[0.201591] (-) TimerEvent: {}
+[0.202083] (joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/laura_benitez/urdf_ws/build/joy', '--', '-j16', '-l16'], 'cwd': '/home/laura_benitez/urdf_ws/build/joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'laura_benitez'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laura_benitez'), ('OLDPWD', '/home/laura_benitez'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/laura_benitez/rosgame_ws/install:/home/laura_benitez/cypr_ws/install:/home/laura_benitez/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laura_benitez'), ('NAME', 'DESKTOP-4ER2JO7'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/laura_benitez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/laura/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/laura/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/laura_benitez/urdf_ws/build/joy'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laura_benitez/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.314594] (-) TimerEvent: {}
+[0.426218] (-) TimerEvent: {}
+[0.537195] (-) TimerEvent: {}
+[0.648203] (-) TimerEvent: {}
+[0.710479] (cuadriga_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.711598] (joy) StdoutLine: {'line': b'[ 33%] Built target joy_enumerate_devices\n'}
+[0.712571] (joy) StdoutLine: {'line': b'[100%] Built target joy\n'}
+[0.712702] (joy) StdoutLine: {'line': b'[100%] Built target joy_node\n'}
+[0.712811] (cuadriganuevo) CommandEnded: {'returncode': 0}
+[0.729390] (cuadriganuevo) JobProgress: {'identifier': 'cuadriganuevo', 'progress': 'install'}
+[0.754975] (cuadriganuevo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/laura_benitez/urdf_ws/build/cuadriganuevo'], 'cwd': '/home/laura_benitez/urdf_ws/build/cuadriganuevo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'laura_benitez'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laura_benitez'), ('OLDPWD', '/home/laura_benitez'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/laura_benitez/rosgame_ws/install:/home/laura_benitez/cypr_ws/install:/home/laura_benitez/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laura_benitez'), ('NAME', 'DESKTOP-4ER2JO7'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/laura_benitez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/laura/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/laura/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/laura_benitez/urdf_ws/build/cuadriganuevo'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laura_benitez/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.757186] (-) TimerEvent: {}
+[0.869179] (-) TimerEvent: {}
+[0.979146] (-) TimerEvent: {}
+[1.089481] (-) TimerEvent: {}
+[1.199369] (-) TimerEvent: {}
+[1.212889] (joy) CommandEnded: {'returncode': 0}
+[1.228978] (joy) JobProgress: {'identifier': 'joy', 'progress': 'install'}
+[1.229507] (joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/laura_benitez/urdf_ws/build/joy'], 'cwd': '/home/laura_benitez/urdf_ws/build/joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'laura_benitez'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laura_benitez'), ('OLDPWD', '/home/laura_benitez'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/laura_benitez/rosgame_ws/install:/home/laura_benitez/cypr_ws/install:/home/laura_benitez/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laura_benitez'), ('NAME', 'DESKTOP-4ER2JO7'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/laura_benitez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/laura/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/laura/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/laura_benitez/urdf_ws/build/joy'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laura_benitez/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.232495] (cuadriganuevo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.232908] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//launch\n'}
+[1.233370] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//launch/display.launch\n'}
+[1.233465] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//launch/display.launch.py\n'}
+[1.233735] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes\n'}
+[1.233836] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Cadena_Derch_Link.STL\n'}
+[1.234018] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Cadena_Izq_Link.STL\n'}
+[1.234188] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Chasis_link.STL\n'}
+[1.234258] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Eng_RDD_Link.STL\n'}
+[1.234318] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Eng_RDI_Link.STL\n'}
+[1.234376] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Eng_RTD_Link.STL\n'}
+[1.234432] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Eng_RTI_Link.STL\n'}
+[1.234486] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/E_Central_Derch_Link.STL\n'}
+[1.234546] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/E_Central_Izq_Link.STL\n'}
+[1.234605] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Motor_D_Link.STL\n'}
+[1.234661] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Motor_I_Link.STL\n'}
+[1.234715] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/RDD_Link.STL\n'}
+[1.234769] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/RDI_Link.STL\n'}
+[1.234822] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/RTD_Link.STL\n'}
+[1.234875] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/RTI_Link.STL\n'}
+[1.234929] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//urdf\n'}
+[1.234985] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//urdf/cuadriganuevo.csv\n'}
+[1.235040] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//urdf/cuadriganuevo.urdf\n'}
+[1.235099] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//config\n'}
+[1.235153] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//config/joint_names_CuadrigaNuevo.SLDASM.yaml\n'}
+[1.235207] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//config/params.yaml\n'}
+[1.235260] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/ament_index/resource_index/package_run_dependencies/cuadriganuevo\n'}
+[1.235313] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/ament_index/resource_index/parent_prefix_path/cuadriganuevo\n'}
+[1.235366] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/environment/ament_prefix_path.sh\n'}
+[1.235417] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/environment/ament_prefix_path.dsv\n'}
+[1.235501] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/environment/path.sh\n'}
+[1.235564] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/environment/path.dsv\n'}
+[1.235620] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/local_setup.bash\n'}
+[1.235675] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/local_setup.sh\n'}
+[1.235730] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/local_setup.zsh\n'}
+[1.235784] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/local_setup.dsv\n'}
+[1.235838] (cuadriganuevo) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.dsv\n'}
+[1.235891] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/ament_index/resource_index/packages/cuadriganuevo\n'}
+[1.235945] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/cmake/cuadriganuevoConfig.cmake\n'}
+[1.236050] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/cmake/cuadriganuevoConfig-version.cmake\n'}
+[1.236116] (cuadriganuevo) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.xml\n'}
+[1.245259] (cuadriganuevo) CommandEnded: {'returncode': 0}
+[1.262183] (joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.286027] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/lib/libjoy.so\n'}
+[1.297166] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/lib/joy/joy_node\n'}
+[1.304933] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/lib/joy/joy_enumerate_devices\n'}
+[1.305187] (-) TimerEvent: {}
+[1.305726] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/include/joy\n'}
+[1.305912] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/include/joy/joy\n'}
+[1.306207] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/include/joy/joy/joy.hpp\n'}
+[1.306355] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/include/joy/joy/joy.hpp:Zone.Identifier\n'}
+[1.306580] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/config\n'}
+[1.306811] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/config/joy-params.yaml\n'}
+[1.307039] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/config/joy-params.yaml:Zone.Identifier\n'}
+[1.307223] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/launch\n'}
+[1.307519] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/launch/joy-composed-launch.py\n'}
+[1.307747] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/launch/joy-composed-launch.py:Zone.Identifier\n'}
+[1.307947] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/launch/joy-launch_test.py\n'}
+[1.308199] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/launch/joy-launch_test.py:Zone.Identifier\n'}
+[1.308571] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/ament_index/resource_index/package_run_dependencies/joy\n'}
+[1.308840] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/ament_index/resource_index/parent_prefix_path/joy\n'}
+[1.309136] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/environment/ament_prefix_path.sh\n'}
+[1.309393] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/environment/ament_prefix_path.dsv\n'}
+[1.309586] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/environment/path.sh\n'}
+[1.309830] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/environment/path.dsv\n'}
+[1.310034] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/local_setup.bash\n'}
+[1.310223] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/local_setup.sh\n'}
+[1.310401] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/local_setup.zsh\n'}
+[1.310643] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/local_setup.dsv\n'}
+[1.310920] (joy) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/joy/share/joy/package.dsv\n'}
+[1.319698] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/ament_index/resource_index/packages/joy\n'}
+[1.320003] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/ament_index/resource_index/rclcpp_components/joy\n'}
+[1.331226] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/cmake/export_joyExport.cmake\n'}
+[1.331588] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake\n'}
+[1.331806] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.332194] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.332422] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/cmake/joyConfig.cmake\n'}
+[1.332585] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/cmake/joyConfig-version.cmake\n'}
+[1.332745] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/joy/share/joy/package.xml\n'}
+[1.397125] (cuadriganuevo) JobEnded: {'identifier': 'cuadriganuevo', 'rc': 0}
+[1.406150] (joy) CommandEnded: {'returncode': 0}
+[1.407192] (-) TimerEvent: {}
+[1.444368] (joy) JobEnded: {'identifier': 'joy', 'rc': 0}
+[1.514533] (-) TimerEvent: {}
+[1.625055] (-) TimerEvent: {}
+[1.679583] (cuadriga_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.724046] (cuadriga_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.737065] (-) TimerEvent: {}
+[1.787530] (cuadriga_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.847962] (-) TimerEvent: {}
+[1.957889] (-) TimerEvent: {}
+[2.069902] (-) TimerEvent: {}
+[2.178694] (-) TimerEvent: {}
+[2.288036] (-) TimerEvent: {}
+[2.382945] (cuadriga_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.398399] (-) TimerEvent: {}
+[2.510384] (-) TimerEvent: {}
+[2.619237] (-) TimerEvent: {}
+[2.729107] (-) TimerEvent: {}
+[2.804896] (cuadriga_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.839054] (-) TimerEvent: {}
+[2.949967] (-) TimerEvent: {}
+[3.060961] (-) TimerEvent: {}
+[3.171586] (-) TimerEvent: {}
+[3.281741] (-) TimerEvent: {}
+[3.392183] (-) TimerEvent: {}
+[3.502963] (-) TimerEvent: {}
+[3.614370] (-) TimerEvent: {}
+[3.616128] (cuadriga_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.725147] (-) TimerEvent: {}
+[3.835476] (-) TimerEvent: {}
+[3.946579] (-) TimerEvent: {}
+[4.057621] (-) TimerEvent: {}
+[4.167616] (-) TimerEvent: {}
+[4.278095] (-) TimerEvent: {}
+[4.369181] (cuadriga_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.388993] (-) TimerEvent: {}
+[4.499267] (-) TimerEvent: {}
+[4.610362] (-) TimerEvent: {}
+[4.719750] (-) TimerEvent: {}
+[4.831132] (-) TimerEvent: {}
+[4.942132] (-) TimerEvent: {}
+[4.989661] (cuadriga_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.052036] (-) TimerEvent: {}
+[5.163904] (-) TimerEvent: {}
+[5.275252] (-) TimerEvent: {}
+[5.385815] (-) TimerEvent: {}
+[5.497765] (-) TimerEvent: {}
+[5.598789] (cuadriga_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.598972] (-) TimerEvent: {}
+[5.666017] (cuadriga_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.703627] (-) TimerEvent: {}
+[5.757058] (cuadriga_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.757314] (cuadriga_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.757398] (cuadriga_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.783272] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_twist_keyboard', 'build', '--build-base', '/home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/build', 'install', '--record', '/home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/laura_benitez/urdf_ws/src/teleop_twist_keyboard', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'laura_benitez', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/laura_benitez', 'OLDPWD': '/home/laura_benitez', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'COLCON_PREFIX_PATH': '/home/laura_benitez/rosgame_ws/install:/home/laura_benitez/cypr_ws/install:/home/laura_benitez/test_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'laura_benitez', 'NAME': 'DESKTOP-4ER2JO7', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/laura_benitez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/laura/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/laura/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/laura_benitez/urdf_ws/build/teleop_twist_keyboard', 'QT_QPA_PLATFORM': 'xcb', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller', 'WSLENV': ''}, 'shell': False}
+[5.792291] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_tcp_endpoint', 'build', '--build-base', '/home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build', 'install', '--record', '/home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/install.log', '--install-scripts', '$base/lib/ros_tcp_endpoint', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/laura_benitez/urdf_ws/src/ROS-TCP-Endpoint-main-ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'laura_benitez', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/laura_benitez', 'OLDPWD': '/home/laura_benitez', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'COLCON_PREFIX_PATH': '/home/laura_benitez/rosgame_ws/install:/home/laura_benitez/cypr_ws/install:/home/laura_benitez/test_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'laura_benitez', 'NAME': 'DESKTOP-4ER2JO7', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/laura_benitez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/laura/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/laura/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/laura_benitez/urdf_ws/build/ros_tcp_endpoint', 'QT_QPA_PLATFORM': 'xcb', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller', 'WSLENV': ''}, 'shell': False}
+[5.813992] (-) TimerEvent: {}
+[5.923874] (-) TimerEvent: {}
+[6.033744] (-) TimerEvent: {}
+[6.045525] (cuadriga_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.075710] (cuadriga_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.144774] (-) TimerEvent: {}
+[6.189269] (ros_tcp_endpoint) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[6.189600] (ros_tcp_endpoint) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.198923] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[6.199448] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[6.199665] (teleop_twist_keyboard) StdoutLine: {'line': b'writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[6.200203] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[6.200343] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[6.200894] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[6.201046] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[6.201386] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt\n'}
+[6.201602] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[6.201955] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[6.202198] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[6.202351] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[6.208222] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[6.209509] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[6.217462] (teleop_twist_keyboard) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.218138] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[6.218368] (teleop_twist_keyboard) StdoutLine: {'line': b'running build\n'}
+[6.218488] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[6.219455] (ros_tcp_endpoint) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.219602] (ros_tcp_endpoint) StdoutLine: {'line': b"adding license file 'LICENSE:Zone.Identifier'\n"}
+[6.219798] (teleop_twist_keyboard) StdoutLine: {'line': b'running install\n'}
+[6.220040] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[6.220301] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[6.220489] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[6.220617] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[6.223361] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[6.223586] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[6.223774] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[6.223909] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.226321] (teleop_twist_keyboard) StdoutLine: {'line': b"removing '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.0-py3.10.egg-info' (and everything under it)\n"}
+[6.228661] (teleop_twist_keyboard) StdoutLine: {'line': b'Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.0-py3.10.egg-info\n'}
+[6.229443] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[6.230260] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.232801] (ros_tcp_endpoint) StdoutLine: {'line': b"removing '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[6.234941] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info\n'}
+[6.235348] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[6.240970] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[6.254948] (-) TimerEvent: {}
+[6.261251] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[6.262101] (teleop_twist_keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/install.log'\n"}
+[6.266813] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[6.268027] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/install.log'\n"}
+[6.301999] (teleop_twist_keyboard) CommandEnded: {'returncode': 0}
+[6.313659] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 0}
+[6.317845] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[6.333225] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[6.364476] (-) TimerEvent: {}
+[6.394083] (cuadriga_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.473803] (-) TimerEvent: {}
+[6.583344] (-) TimerEvent: {}
+[6.694340] (-) TimerEvent: {}
+[6.803689] (-) TimerEvent: {}
+[6.915642] (-) TimerEvent: {}
+[7.026643] (-) TimerEvent: {}
+[7.136964] (-) TimerEvent: {}
+[7.247986] (-) TimerEvent: {}
+[7.358829] (-) TimerEvent: {}
+[7.410866] (cuadriga_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[7.469233] (-) TimerEvent: {}
+[7.579910] (-) TimerEvent: {}
+[7.650091] (cuadriga_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/laura_benitez/urdf_ws/build/cuadriga_interfaces\n'}
+[7.691793] (-) TimerEvent: {}
+[7.729504] (cuadriga_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.773686] (cuadriga_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.802173] (-) TimerEvent: {}
+[7.854759] (cuadriga_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_cuadriga_interfaces\n'}
+[7.914185] (-) TimerEvent: {}
+[8.024542] (-) TimerEvent: {}
+[8.133207] (cuadriga_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cuadriga_interfaces__rosidl_generator_c\x1b[0m\n'}
+[8.133391] (-) TimerEvent: {}
+[8.145767] (cuadriga_interfaces) StdoutLine: {'line': b'[  6%] Built target cuadriga_interfaces__cpp\n'}
+[8.181389] (cuadriga_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/cuadriga_interfaces__rosidl_generator_c.dir/rosidl_generator_c/cuadriga_interfaces/msg/detail/gpx_path__functions.c.o\x1b[0m\n'}
+[8.188277] (cuadriga_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.188680] (cuadriga_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.188823] (cuadriga_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.245970] (-) TimerEvent: {}
+[8.364317] (-) TimerEvent: {}
+[8.366708] (cuadriga_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[8.368518] (cuadriga_interfaces) StdoutLine: {'line': b'writing cuadriga_interfaces.egg-info/PKG-INFO\n'}
+[8.369182] (cuadriga_interfaces) StdoutLine: {'line': b'writing dependency_links to cuadriga_interfaces.egg-info/dependency_links.txt\n'}
+[8.371593] (cuadriga_interfaces) StdoutLine: {'line': b'writing top-level names to cuadriga_interfaces.egg-info/top_level.txt\n'}
+[8.377317] (cuadriga_interfaces) StdoutLine: {'line': b"reading manifest file 'cuadriga_interfaces.egg-info/SOURCES.txt'\n"}
+[8.390657] (cuadriga_interfaces) StdoutLine: {'line': b"writing manifest file 'cuadriga_interfaces.egg-info/SOURCES.txt'\n"}
+[8.467914] (-) TimerEvent: {}
+[8.472418] (cuadriga_interfaces) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_cuadriga_interfaces_egg\n'}
+[8.509043] (cuadriga_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cuadriga_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.562212] (cuadriga_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cuadriga_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[8.562528] (cuadriga_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/cuadriga_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cuadriga_interfaces/msg/gpx_path__type_support.cpp.o\x1b[0m\n'}
+[8.571165] (cuadriga_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cuadriga_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[8.571404] (-) TimerEvent: {}
+[8.614813] (cuadriga_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cuadriga_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cuadriga_interfaces/msg/detail/dds_fastrtps/gpx_path__type_support.cpp.o\x1b[0m\n'}
+[8.622278] (cuadriga_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/cuadriga_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cuadriga_interfaces/msg/detail/gpx_path__type_support.cpp.o\x1b[0m\n'}
+[8.673463] (-) TimerEvent: {}
+[8.783337] (-) TimerEvent: {}
+[8.894228] (-) TimerEvent: {}
+[9.004208] (-) TimerEvent: {}
+[9.073481] (cuadriga_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking C shared library libcuadriga_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[9.115268] (-) TimerEvent: {}
+[9.227218] (-) TimerEvent: {}
+[9.286128] (cuadriga_interfaces) StdoutLine: {'line': b'[ 32%] Built target cuadriga_interfaces__rosidl_generator_c\n'}
+[9.324861] (cuadriga_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.325876] (cuadriga_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.326620] (cuadriga_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.339219] (-) TimerEvent: {}
+[9.449295] (-) TimerEvent: {}
+[9.559970] (-) TimerEvent: {}
+[9.625722] (cuadriga_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cuadriga_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[9.669641] (-) TimerEvent: {}
+[9.675803] (cuadriga_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/cuadriga_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/cuadriga_interfaces/msg/gpx_path__type_support.cpp.o\x1b[0m\n'}
+[9.682439] (cuadriga_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cuadriga_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[9.687894] (cuadriga_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cuadriga_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.739687] (cuadriga_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/cuadriga_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cuadriga_interfaces/msg/detail/gpx_path__type_support.c.o\x1b[0m\n'}
+[9.742678] (cuadriga_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/cuadriga_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cuadriga_interfaces/msg/detail/gpx_path__type_support_c.cpp.o\x1b[0m\n'}
+[9.780474] (-) TimerEvent: {}
+[9.811456] (cuadriga_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libcuadriga_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.815986] (cuadriga_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcuadriga_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.891130] (-) TimerEvent: {}
+[9.935791] (cuadriga_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libcuadriga_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.979230] (cuadriga_interfaces) StdoutLine: {'line': b'[ 61%] Built target cuadriga_interfaces__rosidl_typesupport_cpp\n'}
+[9.980257] (cuadriga_interfaces) StdoutLine: {'line': b'[ 61%] Built target cuadriga_interfaces__rosidl_typesupport_c\n'}
+[10.000767] (-) TimerEvent: {}
+[10.011269] (cuadriga_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcuadriga_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.057925] (cuadriga_interfaces) StdoutLine: {'line': b'[ 64%] Built target cuadriga_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.112767] (-) TimerEvent: {}
+[10.200351] (cuadriga_interfaces) StdoutLine: {'line': b'[ 64%] Built target cuadriga_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.224720] (-) TimerEvent: {}
+[10.265842] (cuadriga_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libcuadriga_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.314661] (cuadriga_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcuadriga_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.336670] (-) TimerEvent: {}
+[10.447928] (cuadriga_interfaces) StdoutLine: {'line': b'[ 70%] Built target cuadriga_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[10.448367] (-) TimerEvent: {}
+[10.468052] (cuadriga_interfaces) StdoutLine: {'line': b'[ 70%] Built target cuadriga_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.544806] (cuadriga_interfaces) StdoutLine: {'line': b'[ 70%] Built target cuadriga_interfaces\n'}
+[10.559538] (-) TimerEvent: {}
+[10.624009] (cuadriga_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.670449] (-) TimerEvent: {}
+[10.778794] (-) TimerEvent: {}
+[10.890431] (-) TimerEvent: {}
+[10.995047] (cuadriga_interfaces) StdoutLine: {'line': b'[ 74%] Built target cuadriga_interfaces__py\n'}
+[10.995269] (-) TimerEvent: {}
+[11.040742] (cuadriga_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cuadriga_interfaces__rosidl_generator_py\x1b[0m\n'}
+[11.093952] (cuadriga_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/cuadriga_interfaces__rosidl_generator_py.dir/rosidl_generator_py/cuadriga_interfaces/msg/_gpx_path_s.c.o\x1b[0m\n'}
+[11.096411] (-) TimerEvent: {}
+[11.206458] (-) TimerEvent: {}
+[11.317574] (-) TimerEvent: {}
+[11.426481] (-) TimerEvent: {}
+[11.535153] (-) TimerEvent: {}
+[11.646145] (-) TimerEvent: {}
+[11.757112] (-) TimerEvent: {}
+[11.869046] (-) TimerEvent: {}
+[11.981041] (-) TimerEvent: {}
+[12.092022] (-) TimerEvent: {}
+[12.202869] (-) TimerEvent: {}
+[12.314275] (-) TimerEvent: {}
+[12.425198] (-) TimerEvent: {}
+[12.501797] (cuadriga_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cuadriga_interfaces/libcuadriga_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[12.535673] (-) TimerEvent: {}
+[12.614267] (cuadriga_interfaces) StdoutLine: {'line': b'[ 80%] Built target cuadriga_interfaces__rosidl_generator_py\n'}
+[12.647137] (-) TimerEvent: {}
+[12.662622] (cuadriga_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cuadriga_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[12.662833] (cuadriga_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cuadriga_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[12.662924] (cuadriga_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cuadriga_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[12.716286] (cuadriga_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/cuadriga_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cuadriga_interfaces/_cuadriga_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.716697] (cuadriga_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/cuadriga_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cuadriga_interfaces/_cuadriga_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.716885] (cuadriga_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/cuadriga_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cuadriga_interfaces/_cuadriga_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.758214] (-) TimerEvent: {}
+[12.868431] (-) TimerEvent: {}
+[12.980495] (-) TimerEvent: {}
+[12.989647] (cuadriga_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.989967] (cuadriga_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.990163] (cuadriga_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.092529] (-) TimerEvent: {}
+[13.122607] (cuadriga_interfaces) StdoutLine: {'line': b'[100%] Built target cuadriga_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.122876] (cuadriga_interfaces) StdoutLine: {'line': b'[100%] Built target cuadriga_interfaces__rosidl_typesupport_c__pyext\n'}
+[13.122962] (cuadriga_interfaces) StdoutLine: {'line': b'[100%] Built target cuadriga_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[13.155787] (cuadriga_interfaces) CommandEnded: {'returncode': 0}
+[13.156816] (cuadriga_interfaces) JobProgress: {'identifier': 'cuadriga_interfaces', 'progress': 'install'}
+[13.157247] (cuadriga_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces'], 'cwd': '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'laura_benitez'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laura_benitez'), ('OLDPWD', '/home/laura_benitez'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/laura_benitez/rosgame_ws/install:/home/laura_benitez/cypr_ws/install:/home/laura_benitez/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laura_benitez'), ('NAME', 'DESKTOP-4ER2JO7'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/laura_benitez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/laura/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/laura/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laura_benitez/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[13.181040] (cuadriga_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.181283] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/ament_index/resource_index/rosidl_interfaces/cuadriga_interfaces\n'}
+[13.182583] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces\n'}
+[13.182795] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg\n'}
+[13.183014] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail\n'}
+[13.183239] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__functions.c\n'}
+[13.184403] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__functions.h\n'}
+[13.185572] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__struct.h\n'}
+[13.186736] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__type_support.h\n'}
+[13.187937] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__functions.c\n'}
+[13.188093] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__functions.h\n'}
+[13.188190] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__struct.h\n'}
+[13.188334] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__type_support.h\n'}
+[13.188465] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/gpx_path.h\n'}
+[13.189755] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/gpx_point.h\n'}
+[13.189933] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.190277] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/library_path.sh\n'}
+[13.190436] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/library_path.dsv\n'}
+[13.192039] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_generator_c.so\n'}
+[13.201631] (cuadriga_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_generator_c.so" to ""\n'}
+[13.201871] (-) TimerEvent: {}
+[13.202285] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces\n'}
+[13.202427] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg\n'}
+[13.202509] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail\n'}
+[13.202580] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__rosidl_typesupport_fastrtps_c.h\n'}
+[13.203738] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__rosidl_typesupport_fastrtps_c.h\n'}
+[13.203884] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.204586] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[13.213968] (cuadriga_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.214218] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces\n'}
+[13.214384] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg\n'}
+[13.214524] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail\n'}
+[13.214664] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__rosidl_typesupport_introspection_c.h\n'}
+[13.215982] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__type_support.c\n'}
+[13.217233] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__rosidl_typesupport_introspection_c.h\n'}
+[13.217508] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__type_support.c\n'}
+[13.217638] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.218260] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[13.227672] (cuadriga_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.228345] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_c.so\n'}
+[13.237628] (cuadriga_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[13.237877] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces\n'}
+[13.238000] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg\n'}
+[13.238090] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail\n'}
+[13.238210] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__builder.hpp\n'}
+[13.239444] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__struct.hpp\n'}
+[13.240609] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__traits.hpp\n'}
+[13.241727] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__type_support.hpp\n'}
+[13.242939] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__builder.hpp\n'}
+[13.243078] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__struct.hpp\n'}
+[13.243301] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__traits.hpp\n'}
+[13.243526] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__type_support.hpp\n'}
+[13.243699] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/gpx_path.hpp\n'}
+[13.245092] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/gpx_point.hpp\n'}
+[13.245255] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[13.245377] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces\n'}
+[13.245542] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg\n'}
+[13.245673] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail\n'}
+[13.245861] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/dds_fastrtps\n'}
+[13.246102] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.247368] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.247541] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.255870] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.266130] (cuadriga_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.266390] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces\n'}
+[13.266517] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg\n'}
+[13.266597] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail\n'}
+[13.266733] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.268045] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_path__type_support.cpp\n'}
+[13.269474] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.269709] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/include/cuadriga_interfaces/cuadriga_interfaces/msg/detail/gpx_point__type_support.cpp\n'}
+[13.277484] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[13.287413] (cuadriga_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.294640] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_cpp.so\n'}
+[13.304767] (cuadriga_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[13.304975] (-) TimerEvent: {}
+[13.305506] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/pythonpath.sh\n'}
+[13.305636] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/pythonpath.dsv\n'}
+[13.306786] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces-0.0.0-py3.10.egg-info\n'}
+[13.307059] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[13.308201] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[13.309351] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[13.310486] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[13.311690] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces\n'}
+[13.311887] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.313391] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.314723] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.316003] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/libcuadriga_interfaces__rosidl_generator_py.so\n'}
+[13.317254] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg\n'}
+[13.317496] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg/_gpx_path.py\n'}
+[13.318964] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg/_gpx_path_s.c\n'}
+[13.320383] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg/_gpx_point.py\n'}
+[13.320617] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg/_gpx_point_s.c\n'}
+[13.320739] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg/__init__.py\n'}
+[13.322195] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/_cuadriga_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[13.323512] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/_cuadriga_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.324913] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/_cuadriga_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.326255] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/__init__.py\n'}
+[13.401765] (cuadriga_interfaces) StdoutLine: {'line': b"Listing '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces'...\n"}
+[13.402011] (cuadriga_interfaces) StdoutLine: {'line': b"Compiling '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/__init__.py'...\n"}
+[13.402110] (cuadriga_interfaces) StdoutLine: {'line': b"Listing '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg'...\n"}
+[13.402183] (cuadriga_interfaces) StdoutLine: {'line': b"Compiling '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg/__init__.py'...\n"}
+[13.402253] (cuadriga_interfaces) StdoutLine: {'line': b"Compiling '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/msg/_gpx_path.py'...\n"}
+[13.407905] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.408106] (-) TimerEvent: {}
+[13.417566] (cuadriga_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.418241] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.427362] (cuadriga_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.428057] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.436610] (cuadriga_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages/cuadriga_interfaces/cuadriga_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.437240] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_generator_py.so\n'}
+[13.446584] (cuadriga_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/libcuadriga_interfaces__rosidl_generator_py.so" to ""\n'}
+[13.446897] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/msg/GPXPath.idl\n'}
+[13.448196] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/msg/GPXPath.msg\n'}
+[13.449600] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/ament_index/resource_index/package_run_dependencies/cuadriga_interfaces\n'}
+[13.449903] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/ament_index/resource_index/parent_prefix_path/cuadriga_interfaces\n'}
+[13.450164] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/ament_prefix_path.sh\n'}
+[13.450351] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/ament_prefix_path.dsv\n'}
+[13.451626] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/path.sh\n'}
+[13.451798] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/environment/path.dsv\n'}
+[13.453102] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/local_setup.bash\n'}
+[13.453291] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/local_setup.sh\n'}
+[13.453496] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/local_setup.zsh\n'}
+[13.453675] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/local_setup.dsv\n'}
+[13.454893] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/package.dsv\n'}
+[13.456214] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/ament_index/resource_index/packages/cuadriga_interfaces\n'}
+[13.465761] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_generator_cExport.cmake\n'}
+[13.466031] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.467499] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.467751] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.468945] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.469171] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.470198] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[13.470408] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.471550] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_generator_cppExport.cmake\n'}
+[13.472680] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.472884] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.473935] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.474124] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.475078] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[13.475271] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.476271] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_generator_pyExport.cmake\n'}
+[13.476500] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/export_cuadriga_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.476700] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[13.478048] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.478264] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.478488] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.478680] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.478867] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.479070] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.479272] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfacesConfig.cmake\n'}
+[13.479490] (cuadriga_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake/cuadriga_interfacesConfig-version.cmake\n'}
+[13.479673] (cuadriga_interfaces) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/package.xml\n'}
+[13.484267] (cuadriga_interfaces) CommandEnded: {'returncode': 0}
+[13.514857] (cuadriga_interfaces) JobEnded: {'identifier': 'cuadriga_interfaces', 'rc': 0}
+[13.517453] (-) TimerEvent: {}
+[13.517727] (cuadriga) JobStarted: {'identifier': 'cuadriga'}
+[13.559059] (cuadriga) JobProgress: {'identifier': 'cuadriga', 'progress': 'cmake'}
+[13.572111] (cuadriga) JobProgress: {'identifier': 'cuadriga', 'progress': 'build'}
+[13.572535] (cuadriga) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/laura_benitez/urdf_ws/build/cuadriga', '--', '-j16', '-l16'], 'cwd': '/home/laura_benitez/urdf_ws/build/cuadriga', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'laura_benitez'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laura_benitez'), ('OLDPWD', '/home/laura_benitez'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/laura_benitez/rosgame_ws/install:/home/laura_benitez/cypr_ws/install:/home/laura_benitez/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laura_benitez'), ('NAME', 'DESKTOP-4ER2JO7'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/laura_benitez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/laura/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/laura/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/laura_benitez/urdf_ws/build/cuadriga'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[13.628831] (-) TimerEvent: {}
+[13.700206] (cuadriga) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[13.739170] (-) TimerEvent: {}
+[13.850119] (-) TimerEvent: {}
+[13.944049] (cuadriga) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[13.961467] (-) TimerEvent: {}
+[14.072587] (-) TimerEvent: {}
+[14.131408] (cuadriga) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[14.135189] (cuadriga) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[14.144185] (cuadriga) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[14.158370] (cuadriga) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.176188] (cuadriga) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.176378] (-) TimerEvent: {}
+[14.292329] (-) TimerEvent: {}
+[14.403224] (-) TimerEvent: {}
+[14.514782] (-) TimerEvent: {}
+[14.625115] (-) TimerEvent: {}
+[14.683987] (cuadriga) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[14.734848] (-) TimerEvent: {}
+[14.739526] (cuadriga) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[14.846223] (-) TimerEvent: {}
+[14.957655] (-) TimerEvent: {}
+[15.069108] (-) TimerEvent: {}
+[15.180496] (-) TimerEvent: {}
+[15.290357] (-) TimerEvent: {}
+[15.399548] (-) TimerEvent: {}
+[15.509222] (-) TimerEvent: {}
+[15.619270] (-) TimerEvent: {}
+[15.677129] (cuadriga) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.730505] (-) TimerEvent: {}
+[15.839936] (-) TimerEvent: {}
+[15.949312] (-) TimerEvent: {}
+[16.058306] (-) TimerEvent: {}
+[16.169155] (-) TimerEvent: {}
+[16.279293] (-) TimerEvent: {}
+[16.350913] (cuadriga) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[16.365482] (cuadriga) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[16.388307] (-) TimerEvent: {}
+[16.402917] (cuadriga) StdoutLine: {'line': b'-- Found cuadriga_interfaces: 0.0.0 (/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/cmake)\n'}
+[16.462515] (cuadriga) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[16.498936] (-) TimerEvent: {}
+[16.609880] (-) TimerEvent: {}
+[16.614238] (cuadriga) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[16.614486] (cuadriga) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/laura_benitez/urdf_ws/src/cuadriga/include\n'}
+[16.614628] (cuadriga) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[16.615479] (cuadriga) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[16.616769] (cuadriga) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.617654] (cuadriga) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[16.621072] (cuadriga) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[16.621199] (cuadriga) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[16.622038] (cuadriga) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.645226] (cuadriga) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.719606] (-) TimerEvent: {}
+[16.829931] (-) TimerEvent: {}
+[16.862793] (cuadriga) StdoutLine: {'line': b'-- Generating done\n'}
+[16.924164] (cuadriga) StdoutLine: {'line': b'-- Build files have been written to: /home/laura_benitez/urdf_ws/build/cuadriga\n'}
+[16.941269] (-) TimerEvent: {}
+[17.009039] (cuadriga) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cuadriga\x1b[0m\n'}
+[17.052775] (-) TimerEvent: {}
+[17.066124] (cuadriga) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cuadriga.dir/src/cuadriga.cpp.o\x1b[0m\n'}
+[17.164057] (-) TimerEvent: {}
+[17.275205] (-) TimerEvent: {}
+[17.384117] (-) TimerEvent: {}
+[17.494511] (-) TimerEvent: {}
+[17.605060] (-) TimerEvent: {}
+[17.716079] (-) TimerEvent: {}
+[17.826233] (-) TimerEvent: {}
+[17.936548] (-) TimerEvent: {}
+[18.047225] (-) TimerEvent: {}
+[18.157448] (-) TimerEvent: {}
+[18.268813] (-) TimerEvent: {}
+[18.379463] (-) TimerEvent: {}
+[18.487846] (-) TimerEvent: {}
+[18.599184] (-) TimerEvent: {}
+[18.710707] (-) TimerEvent: {}
+[18.821837] (-) TimerEvent: {}
+[18.933526] (-) TimerEvent: {}
+[19.044871] (-) TimerEvent: {}
+[19.155984] (-) TimerEvent: {}
+[19.266463] (-) TimerEvent: {}
+[19.377808] (-) TimerEvent: {}
+[19.488695] (-) TimerEvent: {}
+[19.600596] (-) TimerEvent: {}
+[19.712215] (-) TimerEvent: {}
+[19.821006] (-) TimerEvent: {}
+[19.932465] (-) TimerEvent: {}
+[20.043780] (-) TimerEvent: {}
+[20.154801] (-) TimerEvent: {}
+[20.267216] (-) TimerEvent: {}
+[20.378207] (-) TimerEvent: {}
+[20.488948] (-) TimerEvent: {}
+[20.599287] (-) TimerEvent: {}
+[20.709599] (-) TimerEvent: {}
+[20.821057] (-) TimerEvent: {}
+[20.931402] (-) TimerEvent: {}
+[21.041786] (-) TimerEvent: {}
+[21.152205] (-) TimerEvent: {}
+[21.263035] (-) TimerEvent: {}
+[21.373481] (-) TimerEvent: {}
+[21.482323] (-) TimerEvent: {}
+[21.592202] (-) TimerEvent: {}
+[21.701232] (-) TimerEvent: {}
+[21.810599] (-) TimerEvent: {}
+[21.921596] (-) TimerEvent: {}
+[22.033600] (-) TimerEvent: {}
+[22.144616] (-) TimerEvent: {}
+[22.255827] (-) TimerEvent: {}
+[22.367390] (-) TimerEvent: {}
+[22.479259] (-) TimerEvent: {}
+[22.587714] (-) TimerEvent: {}
+[22.698702] (-) TimerEvent: {}
+[22.807949] (-) TimerEvent: {}
+[22.918318] (-) TimerEvent: {}
+[23.028291] (-) TimerEvent: {}
+[23.139339] (-) TimerEvent: {}
+[23.250631] (-) TimerEvent: {}
+[23.359705] (-) TimerEvent: {}
+[23.468803] (-) TimerEvent: {}
+[23.569645] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCuadriga::Cuadriga()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.570036] (-) TimerEvent: {}
+[23.570496] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:8:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KLatitud\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.570596] (cuadriga) StderrLine: {'line': b'    8 |     float \x1b[01;35m\x1b[KLatitud\x1b[m\x1b[K=0;\n'}
+[23.570668] (cuadriga) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[23.570733] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:9:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KLongitud\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.570953] (cuadriga) StderrLine: {'line': b'    9 |     float \x1b[01;35m\x1b[KLongitud\x1b[m\x1b[K=0;\n'}
+[23.571042] (cuadriga) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.571100] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:10:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KAltitud\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.571157] (cuadriga) StderrLine: {'line': b'   10 |     float \x1b[01;35m\x1b[KAltitud\x1b[m\x1b[K=0;\n'}
+[23.571211] (cuadriga) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[23.571263] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:11:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KLatitud0\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.571316] (cuadriga) StderrLine: {'line': b'   11 |     float \x1b[01;35m\x1b[KLatitud0\x1b[m\x1b[K=0;\n'}
+[23.571367] (cuadriga) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.571418] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:12:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KLongitud0\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.571471] (cuadriga) StderrLine: {'line': b'   12 |     float \x1b[01;35m\x1b[KLongitud0\x1b[m\x1b[K=0;\n'}
+[23.571522] (cuadriga) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.571572] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:13:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KAltitud0\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.571653] (cuadriga) StderrLine: {'line': b'   13 |     float \x1b[01;35m\x1b[KAltitud0\x1b[m\x1b[K=0;\n'}
+[23.571709] (cuadriga) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.571760] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:14:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kflag_origen\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.571813] (cuadriga) StderrLine: {'line': b'   14 |     bool \x1b[01;35m\x1b[Kflag_origen\x1b[m\x1b[K=false;\n'}
+[23.571864] (cuadriga) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.571915] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:16:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.571973] (cuadriga) StderrLine: {'line': b'   16 |     bool \x1b[01;35m\x1b[Kflag\x1b[m\x1b[K = 0;\n'}
+[23.572029] (cuadriga) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[23.572079] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:17:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kflag_rafaga_activa\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.572133] (cuadriga) StderrLine: {'line': b'   17 |     bool \x1b[01;35m\x1b[Kflag_rafaga_activa\x1b[m\x1b[K =false;\n'}
+[23.572185] (cuadriga) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.572235] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:18:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcontador_rafaga\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.572286] (cuadriga) StderrLine: {'line': b'   18 |     int \x1b[01;35m\x1b[Kcontador_rafaga\x1b[m\x1b[K = 0;\n'}
+[23.572336] (cuadriga) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.572385] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:19:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktemporizador\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.572506] (cuadriga) StderrLine: {'line': b'   19 |     int \x1b[01;35m\x1b[Ktemporizador\x1b[m\x1b[K = 0;\n'}
+[23.572569] (cuadriga) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.572622] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:20:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KCaracter\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.572675] (cuadriga) StderrLine: {'line': b'   20 |     std::array <char,2> \x1b[01;35m\x1b[KCaracter\x1b[m\x1b[K = {0,0};\n'}
+[23.572728] (cuadriga) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.572780] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:21:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KVoltaje_bateria\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.572835] (cuadriga) StderrLine: {'line': b'   21 |     float \x1b[01;35m\x1b[KVoltaje_bateria\x1b[m\x1b[K = 0;\n'}
+[23.572886] (cuadriga) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.572934] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:22:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KVoltaje_controladora\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.572993] (cuadriga) StderrLine: {'line': b'   22 |     float \x1b[01;35m\x1b[KVoltaje_controladora\x1b[m\x1b[K = 0;\n'}
+[23.573042] (cuadriga) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.573091] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:24:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.573142] (cuadriga) StderrLine: {'line': b'   24 |     float \x1b[01;35m\x1b[Kw\x1b[m\x1b[K = 0;\n'}
+[23.573191] (cuadriga) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.573240] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:29:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcmd_vel_hex\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.573290] (cuadriga) StderrLine: {'line': b'   29 |     std::array<char,2> \x1b[01;35m\x1b[Kcmd_vel_hex\x1b[m\x1b[K = {0,0};\n'}
+[23.573340] (cuadriga) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.573414] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint Cuadriga::Hex2Dec(std::array<char, 2>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.573471] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:155:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::array<char, 2>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.573526] (cuadriga) StderrLine: {'line': b'  155 |     for (int i = 0;\x1b[01;35m\x1b[Ki<hex_value.size()\x1b[m\x1b[K;i++) {\n'}
+[23.573577] (cuadriga) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.582059] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Cuadriga::FollowTheCarrot()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.582277] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:297:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kk\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.582364] (cuadriga) StderrLine: {'line': b'  297 |         float \x1b[01;35m\x1b[Kk\x1b[m\x1b[K = 1; //Ganancia que le da peso a la distancia en el calculo\n'}
+[23.582464] (cuadriga) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.582542] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:306:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KL\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.582612] (cuadriga) StderrLine: {'line': b'  306 |         float \x1b[01;35m\x1b[KL\x1b[m\x1b[K = 0.5;\n'}
+[23.582679] (cuadriga) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.588722] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Cuadriga::process_GPS_data(sensor_msgs::msg::NavSatFix_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.588885] (cuadriga) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:424:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KL\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.589024] (cuadriga) StderrLine: {'line': b'  424 |         float \x1b[01;35m\x1b[KL\x1b[m\x1b[K = 0.5f;\n'}
+[23.589098] (cuadriga) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.673335] (-) TimerEvent: {}
+[23.783277] (-) TimerEvent: {}
+[23.893302] (-) TimerEvent: {}
+[24.003691] (-) TimerEvent: {}
+[24.115173] (-) TimerEvent: {}
+[24.227180] (-) TimerEvent: {}
+[24.338673] (-) TimerEvent: {}
+[24.449113] (-) TimerEvent: {}
+[24.560457] (-) TimerEvent: {}
+[24.670159] (-) TimerEvent: {}
+[24.781074] (-) TimerEvent: {}
+[24.891128] (-) TimerEvent: {}
+[25.002012] (-) TimerEvent: {}
+[25.114082] (-) TimerEvent: {}
+[25.223072] (-) TimerEvent: {}
+[25.333592] (-) TimerEvent: {}
+[25.444939] (-) TimerEvent: {}
+[25.556579] (-) TimerEvent: {}
+[25.668000] (-) TimerEvent: {}
+[25.778362] (-) TimerEvent: {}
+[25.888830] (-) TimerEvent: {}
+[25.997951] (-) TimerEvent: {}
+[26.107162] (-) TimerEvent: {}
+[26.216760] (-) TimerEvent: {}
+[26.327792] (-) TimerEvent: {}
+[26.437455] (-) TimerEvent: {}
+[26.547981] (-) TimerEvent: {}
+[26.659984] (-) TimerEvent: {}
+[26.771997] (-) TimerEvent: {}
+[26.884342] (-) TimerEvent: {}
+[26.995279] (-) TimerEvent: {}
+[27.106638] (-) TimerEvent: {}
+[27.217376] (-) TimerEvent: {}
+[27.325763] (-) TimerEvent: {}
+[27.435447] (-) TimerEvent: {}
+[27.546954] (-) TimerEvent: {}
+[27.655640] (-) TimerEvent: {}
+[27.765317] (-) TimerEvent: {}
+[27.877304] (-) TimerEvent: {}
+[27.988165] (-) TimerEvent: {}
+[28.098847] (-) TimerEvent: {}
+[28.210856] (-) TimerEvent: {}
+[28.322888] (-) TimerEvent: {}
+[28.432452] (-) TimerEvent: {}
+[28.543863] (-) TimerEvent: {}
+[28.653813] (-) TimerEvent: {}
+[28.766332] (-) TimerEvent: {}
+[28.875741] (-) TimerEvent: {}
+[28.987448] (-) TimerEvent: {}
+[29.097611] (-) TimerEvent: {}
+[29.209390] (-) TimerEvent: {}
+[29.318462] (-) TimerEvent: {}
+[29.430115] (-) TimerEvent: {}
+[29.539970] (-) TimerEvent: {}
+[29.650261] (-) TimerEvent: {}
+[29.761114] (-) TimerEvent: {}
+[29.872128] (-) TimerEvent: {}
+[29.982976] (-) TimerEvent: {}
+[30.091129] (-) TimerEvent: {}
+[30.203140] (-) TimerEvent: {}
+[30.314128] (-) TimerEvent: {}
+[30.424134] (-) TimerEvent: {}
+[30.535710] (-) TimerEvent: {}
+[30.646940] (-) TimerEvent: {}
+[30.756217] (-) TimerEvent: {}
+[30.867055] (-) TimerEvent: {}
+[30.977232] (-) TimerEvent: {}
+[31.087753] (-) TimerEvent: {}
+[31.199074] (-) TimerEvent: {}
+[31.309891] (-) TimerEvent: {}
+[31.420501] (-) TimerEvent: {}
+[31.532136] (-) TimerEvent: {}
+[31.643146] (-) TimerEvent: {}
+[31.754503] (-) TimerEvent: {}
+[31.865501] (-) TimerEvent: {}
+[31.977262] (-) TimerEvent: {}
+[32.087179] (-) TimerEvent: {}
+[32.196059] (-) TimerEvent: {}
+[32.303998] (-) TimerEvent: {}
+[32.413943] (-) TimerEvent: {}
+[32.525970] (-) TimerEvent: {}
+[32.636410] (-) TimerEvent: {}
+[32.747325] (-) TimerEvent: {}
+[32.855341] (-) TimerEvent: {}
+[32.965773] (-) TimerEvent: {}
+[33.075668] (-) TimerEvent: {}
+[33.186782] (-) TimerEvent: {}
+[33.297895] (-) TimerEvent: {}
+[33.356244] (cuadriga) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cuadriga\x1b[0m\n'}
+[33.408716] (-) TimerEvent: {}
+[33.519955] (-) TimerEvent: {}
+[33.630563] (-) TimerEvent: {}
+[33.740809] (-) TimerEvent: {}
+[33.852130] (-) TimerEvent: {}
+[33.963616] (-) TimerEvent: {}
+[34.073926] (-) TimerEvent: {}
+[34.184851] (-) TimerEvent: {}
+[34.295852] (-) TimerEvent: {}
+[34.341983] (cuadriga) StdoutLine: {'line': b'[100%] Built target cuadriga\n'}
+[34.371125] (cuadriga) CommandEnded: {'returncode': 0}
+[34.389810] (cuadriga) JobProgress: {'identifier': 'cuadriga', 'progress': 'install'}
+[34.390445] (cuadriga) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/laura_benitez/urdf_ws/build/cuadriga'], 'cwd': '/home/laura_benitez/urdf_ws/build/cuadriga', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'laura_benitez'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laura_benitez'), ('OLDPWD', '/home/laura_benitez'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/laura_benitez/rosgame_ws/install:/home/laura_benitez/cypr_ws/install:/home/laura_benitez/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laura_benitez'), ('NAME', 'DESKTOP-4ER2JO7'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/laura_benitez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/laura/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/laura/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/laura_benitez/urdf_ws/build/cuadriga'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[34.406278] (-) TimerEvent: {}
+[34.414730] (cuadriga) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.434163] (cuadriga) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga/lib/cuadriga/cuadriga\n'}
+[34.463163] (cuadriga) StdoutLine: {'line': b'-- Set runtime path of "/home/laura_benitez/urdf_ws/install/cuadriga/lib/cuadriga/cuadriga" to ""\n'}
+[34.463462] (cuadriga) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga//launch\n'}
+[34.463640] (cuadriga) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga//launch/cuadriga_launch.py\n'}
+[34.463823] (cuadriga) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga//launch/cuadriga_launch.py:Zone.Identifier\n'}
+[34.464091] (cuadriga) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga/share/ament_index/resource_index/package_run_dependencies/cuadriga\n'}
+[34.464370] (cuadriga) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga/share/ament_index/resource_index/parent_prefix_path/cuadriga\n'}
+[34.464606] (cuadriga) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/environment/ament_prefix_path.sh\n'}
+[34.464768] (cuadriga) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/environment/ament_prefix_path.dsv\n'}
+[34.466106] (cuadriga) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/environment/path.sh\n'}
+[34.466283] (cuadriga) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/environment/path.dsv\n'}
+[34.467513] (cuadriga) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/local_setup.bash\n'}
+[34.467678] (cuadriga) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/local_setup.sh\n'}
+[34.467863] (cuadriga) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/local_setup.zsh\n'}
+[34.468042] (cuadriga) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/local_setup.dsv\n'}
+[34.469172] (cuadriga) StdoutLine: {'line': b'-- Installing: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/package.dsv\n'}
+[34.470422] (cuadriga) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga/share/ament_index/resource_index/packages/cuadriga\n'}
+[34.470668] (cuadriga) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/cmake/cuadrigaConfig.cmake\n'}
+[34.470842] (cuadriga) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/cmake/cuadrigaConfig-version.cmake\n'}
+[34.471037] (cuadriga) StdoutLine: {'line': b'-- Up-to-date: /home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/package.xml\n'}
+[34.473945] (cuadriga) CommandEnded: {'returncode': 0}
+[34.501066] (cuadriga) JobEnded: {'identifier': 'cuadriga', 'rc': 0}
+[34.542123] (-) TimerEvent: {}
+[34.542286] (-) EventReactorShutdown: {}

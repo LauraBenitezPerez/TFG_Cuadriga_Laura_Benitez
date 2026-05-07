@@ -1,0 +1,6 @@
+Comparación trayectoria real vs simulada
+Origen: lat=36.7173073, lon=-4.4894467
+Error medio: 0.458 m
+Error máximo: 1.573 m
+Error mínimo: 0.001 m
+Desviación típica: 0.313 m

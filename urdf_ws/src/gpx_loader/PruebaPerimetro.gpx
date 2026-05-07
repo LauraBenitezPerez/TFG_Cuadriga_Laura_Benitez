@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="https://gpx.studio" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>New file 1</name>
+    <author>
+      <name>gpx.studio</name>
+      <link href="https://gpx.studio"/>
+    </author>
+  </metadata>
+  <trk>
+    <name>New file 1</name>
+    <trkseg>
+      <trkpt lat="36.71705269985587" lon="-4.4895318412394545">
+        <ele>50.58312257451499</ele>
+      </trkpt>
+      <trkpt lat="36.71697124541927" lon="-4.4895318412394545">
+        <ele>50.29231066787722</ele>
+      </trkpt>
+      <trkpt lat="36.716968112554156" lon="-4.489316886328453">
+        <ele>50.44993329183286</ele>
+      </trkpt>
+      <trkpt lat="36.717339356129116" lon="-4.489367693852415">
+        <ele>51.56237514843289</ele>
+      </trkpt>
+      <trkpt lat="36.71742394302204" lon="-4.489582648764156">
+        <ele>51.70826230659225</ele>
+      </trkpt>
+      <trkpt lat="36.71706366486946" lon="-4.489590465306094">
+        <ele>50.64144773064268</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

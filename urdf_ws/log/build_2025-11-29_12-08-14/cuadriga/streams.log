@@ -1,0 +1,84 @@
+[0.065s] Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriga': CMAKE_PREFIX_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/urdf_ws/install/joy:/home/laura_benitez/urdf_ws/install/cuadriganuevo:/home/laura_benitez/urdf_ws/install/cuadriga:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/opt/ros/humble LD_LIBRARY_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:/home/laura_benitez/urdf_ws/install/joy/lib:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriga -- -j16 -l16
+[0.302s] [35m[1mConsolidate compiler generated dependencies of target cuadriga[0m
+[0.374s] [ 50%] [32mBuilding CXX object CMakeFiles/cuadriga.dir/src/cuadriga.cpp.o[0m
+[9.506s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:[m[K In constructor ‘[01m[KCuadriga::Cuadriga()[m[K’:
+[9.506s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:45:127:[m[K [01;31m[Kerror: [m[K‘[01m[Kprocess_trayectoria[m[K’ is not a member of ‘[01m[KCuadriga[m[K’
+[9.507s]    45 | _subscription<cuadriga_interfaces::msg::GPXPath>("Cuadriga/trayectoria_gpx",10,std::bind(&Cuadriga::[01;31m[Kprocess_trayectoria[m[K,this,_1));
+[9.507s]       |                                                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.507s] 
+[9.511s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:8:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KLatitud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.511s]     8 |     float [01;35m[KLatitud[m[K=0;
+[9.511s]       |           [01;35m[K^~~~~~~[m[K
+[9.511s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:9:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KLongitud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.511s]     9 |     float [01;35m[KLongitud[m[K=0;
+[9.511s]       |           [01;35m[K^~~~~~~~[m[K
+[9.511s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:10:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KAltitud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.511s]    10 |     float [01;35m[KAltitud[m[K=0;
+[9.511s]       |           [01;35m[K^~~~~~~[m[K
+[9.512s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:11:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KLatitud0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.512s]    11 |     float [01;35m[KLatitud0[m[K=0;
+[9.512s]       |           [01;35m[K^~~~~~~~[m[K
+[9.512s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:12:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KLongitud0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.512s]    12 |     float [01;35m[KLongitud0[m[K=0;
+[9.512s]       |           [01;35m[K^~~~~~~~~[m[K
+[9.512s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:13:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KAltitud0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.512s]    13 |     float [01;35m[KAltitud0[m[K=0;
+[9.512s]       |           [01;35m[K^~~~~~~~[m[K
+[9.512s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:14:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag_origen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.512s]    14 |     bool [01;35m[Kflag_origen[m[K=false;
+[9.512s]       |          [01;35m[K^~~~~~~~~~~[m[K
+[9.512s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:16:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.512s]    16 |     bool [01;35m[Kflag[m[K = 0;
+[9.513s]       |          [01;35m[K^~~~[m[K
+[9.513s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:17:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag_rafaga_activa[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.513s]    17 |     bool [01;35m[Kflag_rafaga_activa[m[K =false;
+[9.513s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[9.513s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:18:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcontador_rafaga[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.513s]    18 |     int [01;35m[Kcontador_rafaga[m[K = 0;
+[9.513s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[9.513s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:19:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktemporizador[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.513s]    19 |     int [01;35m[Ktemporizador[m[K = 0;
+[9.513s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[9.513s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:20:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KCaracter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.513s]    20 |     std::array <char,2> [01;35m[KCaracter[m[K = {0,0};
+[9.513s]       |                         [01;35m[K^~~~~~~~[m[K
+[9.513s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:21:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KVoltaje_bateria[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.513s]    21 |     float [01;35m[KVoltaje_bateria[m[K = 0;
+[9.513s]       |           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[9.514s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:22:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KVoltaje_controladora[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.514s]    22 |     float [01;35m[KVoltaje_controladora[m[K = 0;
+[9.514s]       |           [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.514s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:24:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.514s]    24 |     float [01;35m[Kw[m[K = 0;
+[9.514s]       |           [01;35m[K^[m[K
+[9.514s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:29:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd_vel_hex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.514s]    29 |     std::array<char,2> [01;35m[Kcmd_vel_hex[m[K = {0,0};
+[9.514s]       |                        [01;35m[K^~~~~~~~~~~[m[K
+[9.514s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:[m[K In member function ‘[01m[Kint Cuadriga::Hex2Dec(std::array<char, 2>)[m[K’:
+[9.514s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:159:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::array<char, 2>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[9.514s]   159 |     for (int i = 0;[01;35m[Ki<hex_value.size()[m[K;i++) {
+[9.514s]       |                    [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[9.515s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:[m[K At global scope:
+[9.515s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:191:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Cuadriga::process_trayectoria(cuadriga_interfaces::msg::GPXPath_<std::allocator<void> >::SharedPtr)[m[K’
+[9.515s]   191 | void [01;31m[KCuadriga[m[K::process_trayectoria(const cuadriga_interfaces::msg::GPXPath::SharedPtr msg)
+[9.515s]       |      [01;31m[K^~~~~~~~[m[K
+[9.515s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:191:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid Cuadriga::process_trayectoria(cuadriga_interfaces::msg::GPXPath_<std::allocator<void> >::SharedPtr)[m[K’
+[9.515s] In file included from [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:1[m[K:
+[9.515s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/include/cuadriga/cuadriga.hpp:12:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Cuadriga[m[K’ defined here
+[9.515s]    12 | class [01;36m[KCuadriga[m[K : public rclcpp::Node
+[9.515s]       |       [01;36m[K^~~~~~~~[m[K
+[9.517s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:[m[K In member function ‘[01m[Kvoid Cuadriga::FollowTheCarrot()[m[K’:
+[9.517s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:267:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kk[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.518s]   267 |         float [01;35m[Kk[m[K = 1; //Ganancia que le da peso a la distancia en el calculo
+[9.518s]       |               [01;35m[K^[m[K
+[9.518s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:276:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KL[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.518s]   276 |         float [01;35m[KL[m[K = 0.5;
+[9.518s]       |               [01;35m[K^[m[K
+[9.526s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:[m[K In member function ‘[01m[Kvoid Cuadriga::process_GPS_data(sensor_msgs::msg::NavSatFix_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.526s] [01m[K/home/laura_benitez/urdf_ws/src/cuadriga/src/cuadriga.cpp:456:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KL[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.526s]   456 |         float [01;35m[KL[m[K = 0.5f;
+[9.526s]       |               [01;35m[K^[m[K
+[15.055s] gmake[2]: *** [CMakeFiles/cuadriga.dir/build.make:76: CMakeFiles/cuadriga.dir/src/cuadriga.cpp.o] Error 1
+[15.056s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cuadriga.dir/all] Error 2
+[15.056s] gmake: *** [Makefile:146: all] Error 2
+[15.060s] Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriga' returned '2': CMAKE_PREFIX_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/urdf_ws/install/joy:/home/laura_benitez/urdf_ws/install/cuadriganuevo:/home/laura_benitez/urdf_ws/install/cuadriga:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/opt/ros/humble LD_LIBRARY_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:/home/laura_benitez/urdf_ws/install/joy/lib:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriga -- -j16 -l16

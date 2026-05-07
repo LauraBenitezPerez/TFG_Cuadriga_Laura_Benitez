@@ -1,0 +1,85 @@
+[0.060s] Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/laura_benitez/urdf_ws/src/cuadriganuevo -DCMAKE_INSTALL_PREFIX=/home/laura_benitez/urdf_ws/install/cuadriganuevo
+[0.617s] -- The C compiler identification is GNU 11.4.0
+[0.922s] -- The CXX compiler identification is GNU 11.4.0
+[1.050s] -- Detecting C compiler ABI info
+[1.388s] -- Detecting C compiler ABI info - done
+[1.399s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.406s] -- Detecting C compile features
+[1.419s] -- Detecting C compile features - done
+[1.447s] -- Detecting CXX compiler ABI info
+[1.769s] -- Detecting CXX compiler ABI info - done
+[1.776s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.777s] -- Detecting CXX compile features
+[1.777s] -- Detecting CXX compile features - done
+[1.806s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.111s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.405s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.722s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.747s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.784s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.814s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.855s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.500s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.570s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.542s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.745s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.022s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.214s] -- Looking for pthread.h
+[5.547s] -- Looking for pthread.h - found
+[5.550s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.950s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.953s] -- Found Threads: TRUE  
+[7.113s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.514s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.521s] -- Added test 'lint_cmake' to check CMake code style
+[7.525s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.535s] -- Added test 'xmllint' to check XML markup files
+[7.570s] -- Configuring done
+[7.623s] -- Generating done
+[7.724s] -- Build files have been written to: /home/laura_benitez/urdf_ws/build/cuadriganuevo
+[7.749s] Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/laura_benitez/urdf_ws/src/cuadriganuevo -DCMAKE_INSTALL_PREFIX=/home/laura_benitez/urdf_ws/install/cuadriganuevo
+[7.752s] Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriganuevo -- -j16 -l16
+[7.897s] Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriganuevo -- -j16 -l16
+[7.925s] Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cuadriganuevo
+[7.948s] -- Install configuration: ""
+[7.948s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//launch
+[7.949s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//launch/display.launch
+[7.958s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//launch/display.launch.py
+[7.968s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes
+[7.968s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Cadena_Derch_Link.STL
+[7.986s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Cadena_Izq_Link.STL
+[8.003s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Chasis_link.STL
+[8.025s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Eng_RDD_Link.STL
+[8.034s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Eng_RDI_Link.STL
+[8.043s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Eng_RTD_Link.STL
+[8.053s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Eng_RTI_Link.STL
+[8.081s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/E_Central_Derch_Link.STL
+[8.093s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/E_Central_Izq_Link.STL
+[8.104s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Motor_D_Link.STL
+[8.115s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/Motor_I_Link.STL
+[8.127s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/RDD_Link.STL
+[8.141s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/RDI_Link.STL
+[8.156s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/RTD_Link.STL
+[8.171s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//meshes/RTI_Link.STL
+[8.185s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//urdf
+[8.186s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//urdf/cuadriganuevo.csv
+[8.196s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//urdf/cuadriganuevo.urdf
+[8.207s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//config
+[8.207s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//config/joint_names_CuadrigaNuevo.SLDASM.yaml
+[8.215s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo//config/params.yaml
+[8.216s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/ament_index/resource_index/package_run_dependencies/cuadriganuevo
+[8.218s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/ament_index/resource_index/parent_prefix_path/cuadriganuevo
+[8.219s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/environment/ament_prefix_path.sh
+[8.220s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/environment/ament_prefix_path.dsv
+[8.221s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/environment/path.sh
+[8.222s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/environment/path.dsv
+[8.223s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/local_setup.bash
+[8.224s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/local_setup.sh
+[8.225s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/local_setup.zsh
+[8.226s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/local_setup.dsv
+[8.227s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.dsv
+[8.228s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/ament_index/resource_index/packages/cuadriganuevo
+[8.230s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/cmake/cuadriganuevoConfig.cmake
+[8.231s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/cmake/cuadriganuevoConfig-version.cmake
+[8.232s] -- Installing: /home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.xml
+[8.236s] Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cuadriganuevo

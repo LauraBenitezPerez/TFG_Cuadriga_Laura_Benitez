@@ -1,0 +1,1 @@
+controller_joint_names: ['', 'RDD_Joint', 'Eng_RDD_Joint', 'RTD_Joint', 'Eng_RTD_Joint', 'RDI_Joint', 'Eng_RDI_Joint', 'RTI_Joint', 'Eng_RTI_Joint', 'Motor_D_Joint', 'E_Central_Derch_Joint', 'Motor_I_Joint', 'E_Central_Izq_Joint', ]

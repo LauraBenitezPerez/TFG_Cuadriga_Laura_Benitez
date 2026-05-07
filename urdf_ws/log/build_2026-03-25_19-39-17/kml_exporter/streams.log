@@ -1,0 +1,33 @@
+[5.903s] Invoking command in '/home/laura_benitez/urdf_ws/src/kml_exporter': PYTHONPATH=/home/laura_benitez/urdf_ws/build/kml_exporter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/kml_exporter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kml_exporter build --build-base /home/laura_benitez/urdf_ws/build/kml_exporter/build install --record /home/laura_benitez/urdf_ws/build/kml_exporter/install.log --single-version-externally-managed install_data
+[6.323s] running egg_info
+[6.323s] creating ../../build/kml_exporter/kml_exporter.egg-info
+[6.323s] writing ../../build/kml_exporter/kml_exporter.egg-info/PKG-INFO
+[6.324s] writing dependency_links to ../../build/kml_exporter/kml_exporter.egg-info/dependency_links.txt
+[6.326s] writing entry points to ../../build/kml_exporter/kml_exporter.egg-info/entry_points.txt
+[6.326s] writing requirements to ../../build/kml_exporter/kml_exporter.egg-info/requires.txt
+[6.327s] writing top-level names to ../../build/kml_exporter/kml_exporter.egg-info/top_level.txt
+[6.334s] writing manifest file '../../build/kml_exporter/kml_exporter.egg-info/SOURCES.txt'
+[6.335s] reading manifest file '../../build/kml_exporter/kml_exporter.egg-info/SOURCES.txt'
+[6.335s] writing manifest file '../../build/kml_exporter/kml_exporter.egg-info/SOURCES.txt'
+[6.336s] running build
+[6.336s] running build_py
+[6.336s] creating /home/laura_benitez/urdf_ws/build/kml_exporter/build
+[6.336s] creating /home/laura_benitez/urdf_ws/build/kml_exporter/build/lib
+[6.336s] creating /home/laura_benitez/urdf_ws/build/kml_exporter/build/lib/kml_exporter
+[6.336s] copying kml_exporter/__init__.py -> /home/laura_benitez/urdf_ws/build/kml_exporter/build/lib/kml_exporter
+[6.338s] running install
+[6.338s] running install_lib
+[6.340s] creating /home/laura_benitez/urdf_ws/install/kml_exporter/lib/python3.10/site-packages/kml_exporter
+[6.340s] copying /home/laura_benitez/urdf_ws/build/kml_exporter/build/lib/kml_exporter/__init__.py -> /home/laura_benitez/urdf_ws/install/kml_exporter/lib/python3.10/site-packages/kml_exporter
+[6.344s] byte-compiling /home/laura_benitez/urdf_ws/install/kml_exporter/lib/python3.10/site-packages/kml_exporter/__init__.py to __init__.cpython-310.pyc
+[6.347s] running install_data
+[6.347s] creating /home/laura_benitez/urdf_ws/install/kml_exporter/share/ament_index
+[6.347s] creating /home/laura_benitez/urdf_ws/install/kml_exporter/share/ament_index/resource_index
+[6.347s] creating /home/laura_benitez/urdf_ws/install/kml_exporter/share/ament_index/resource_index/packages
+[6.347s] copying resource/kml_exporter -> /home/laura_benitez/urdf_ws/install/kml_exporter/share/ament_index/resource_index/packages
+[6.347s] copying package.xml -> /home/laura_benitez/urdf_ws/install/kml_exporter/share/kml_exporter
+[6.348s] running install_egg_info
+[6.351s] Copying ../../build/kml_exporter/kml_exporter.egg-info to /home/laura_benitez/urdf_ws/install/kml_exporter/lib/python3.10/site-packages/kml_exporter-0.0.0-py3.10.egg-info
+[6.359s] running install_scripts
+[6.396s] writing list of installed files to '/home/laura_benitez/urdf_ws/build/kml_exporter/install.log'
+[6.442s] Invoked command in '/home/laura_benitez/urdf_ws/src/kml_exporter' returned '0': PYTHONPATH=/home/laura_benitez/urdf_ws/build/kml_exporter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/kml_exporter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kml_exporter build --build-base /home/laura_benitez/urdf_ws/build/kml_exporter/build install --record /home/laura_benitez/urdf_ws/build/kml_exporter/install.log --single-version-externally-managed install_data

@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000391] (-) JobUnselected: {'identifier': 'cuadriga'}
+[0.000440] (-) JobUnselected: {'identifier': 'cuadriga_interfaces'}
+[0.000475] (-) JobUnselected: {'identifier': 'cuadriganuevo'}
+[0.000515] (-) JobUnselected: {'identifier': 'gpx_loader'}
+[0.000564] (-) JobUnselected: {'identifier': 'joy'}
+[0.000613] (-) JobUnselected: {'identifier': 'ros_tcp_endpoint'}
+[0.000657] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.000710] (kml_exporter) JobQueued: {'identifier': 'kml_exporter', 'dependencies': OrderedDict()}
+[0.000763] (kml_exporter) JobStarted: {'identifier': 'kml_exporter'}
+[0.104872] (-) TimerEvent: {}
+[0.215895] (-) TimerEvent: {}
+[0.325444] (-) TimerEvent: {}
+[0.436348] (-) TimerEvent: {}
+[0.547473] (-) TimerEvent: {}
+[0.658697] (-) TimerEvent: {}
+[0.766461] (-) TimerEvent: {}
+[0.875770] (-) TimerEvent: {}
+[0.986893] (-) TimerEvent: {}
+[1.097921] (-) TimerEvent: {}
+[1.208444] (-) TimerEvent: {}
+[1.318496] (-) TimerEvent: {}
+[1.426583] (-) TimerEvent: {}
+[1.536579] (-) TimerEvent: {}
+[1.647528] (-) TimerEvent: {}
+[1.758130] (-) TimerEvent: {}
+[1.868390] (-) TimerEvent: {}
+[1.978635] (-) TimerEvent: {}
+[2.087940] (-) TimerEvent: {}
+[2.198476] (-) TimerEvent: {}
+[2.308809] (-) TimerEvent: {}
+[2.416856] (-) TimerEvent: {}
+[2.527496] (-) TimerEvent: {}
+[2.636325] (-) TimerEvent: {}
+[2.744755] (-) TimerEvent: {}
+[2.855499] (-) TimerEvent: {}
+[2.966610] (-) TimerEvent: {}
+[3.075671] (-) TimerEvent: {}
+[3.182934] (-) TimerEvent: {}
+[3.290792] (-) TimerEvent: {}
+[3.399822] (-) TimerEvent: {}
+[3.510477] (-) TimerEvent: {}
+[3.620638] (-) TimerEvent: {}
+[3.731859] (-) TimerEvent: {}
+[3.842243] (-) TimerEvent: {}
+[3.952108] (-) TimerEvent: {}
+[4.061229] (-) TimerEvent: {}
+[4.169930] (-) TimerEvent: {}
+[4.239019] (kml_exporter) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/kml_exporter', 'build', '--build-base', '/home/laura_benitez/urdf_ws/build/kml_exporter/build', 'install', '--record', '/home/laura_benitez/urdf_ws/build/kml_exporter/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/laura_benitez/urdf_ws/src/kml_exporter', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'laura_benitez', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/laura_benitez/urdf_ws/install/joy/lib:/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/laura_benitez', 'OLDPWD': '/home/laura_benitez/urdf_ws', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'COLCON_PREFIX_PATH': '/home/laura_benitez/urdf_ws/install:/home/laura_benitez/rosgame_ws/install:/home/laura_benitez/cypr_ws/install:/home/laura_benitez/test_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'laura_benitez', 'NAME': 'DESKTOP-4ER2JO7', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/laura_benitez/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/laura/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/laura/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/kml_exporter:/home/laura_benitez/urdf_ws/install/joy:/home/laura_benitez/urdf_ws/install/gpx_loader:/home/laura_benitez/urdf_ws/install/cuadriganuevo:/home/laura_benitez/urdf_ws/install/cuadriga:/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/laura_benitez/urdf_ws/build/kml_exporter', 'QT_QPA_PLATFORM': 'xcb', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/laura_benitez/urdf_ws/build/kml_exporter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/kml_exporter/lib/python3.10/site-packages:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/laura_benitez/urdf_ws/install/kml_exporter/lib/python3.10/site-packages:/home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages:/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/local/lib/python3.10/dist-packages:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/local/lib/python3.10/dist-packages:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/navigation/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/localization/local/lib/python3.10/dist-packages:/home/laura_benitez/cypr_ws/install/arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/laura_benitez/urdf_ws/install/joy:/home/laura_benitez/urdf_ws/install/cuadriganuevo:/home/laura_benitez/urdf_ws/install/cuadriga:/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller', 'WSLENV': ''}, 'shell': False}
+[4.279690] (-) TimerEvent: {}
+[4.390276] (-) TimerEvent: {}
+[4.500894] (-) TimerEvent: {}
+[4.612485] (-) TimerEvent: {}
+[4.669941] (kml_exporter) StdoutLine: {'line': b'running egg_info\n'}
+[4.670657] (kml_exporter) StdoutLine: {'line': b'writing ../../build/kml_exporter/kml_exporter.egg-info/PKG-INFO\n'}
+[4.671005] (kml_exporter) StdoutLine: {'line': b'writing dependency_links to ../../build/kml_exporter/kml_exporter.egg-info/dependency_links.txt\n'}
+[4.671393] (kml_exporter) StdoutLine: {'line': b'writing entry points to ../../build/kml_exporter/kml_exporter.egg-info/entry_points.txt\n'}
+[4.671692] (kml_exporter) StdoutLine: {'line': b'writing requirements to ../../build/kml_exporter/kml_exporter.egg-info/requires.txt\n'}
+[4.671877] (kml_exporter) StdoutLine: {'line': b'writing top-level names to ../../build/kml_exporter/kml_exporter.egg-info/top_level.txt\n'}
+[4.673139] (kml_exporter) StdoutLine: {'line': b"reading manifest file '../../build/kml_exporter/kml_exporter.egg-info/SOURCES.txt'\n"}
+[4.683225] (kml_exporter) StdoutLine: {'line': b"writing manifest file '../../build/kml_exporter/kml_exporter.egg-info/SOURCES.txt'\n"}
+[4.683369] (kml_exporter) StdoutLine: {'line': b'running build\n'}
+[4.683588] (kml_exporter) StdoutLine: {'line': b'running install\n'}
+[4.683665] (kml_exporter) StdoutLine: {'line': b'running install_data\n'}
+[4.683730] (kml_exporter) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.684135] (kml_exporter) StdoutLine: {'line': b"removing '/home/laura_benitez/urdf_ws/install/kml_exporter/lib/python3.10/site-packages/kml_exporter-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.685871] (kml_exporter) StdoutLine: {'line': b'Copying ../../build/kml_exporter/kml_exporter.egg-info to /home/laura_benitez/urdf_ws/install/kml_exporter/lib/python3.10/site-packages/kml_exporter-0.0.0-py3.10.egg-info\n'}
+[4.692092] (kml_exporter) StdoutLine: {'line': b'running install_scripts\n'}
+[4.717360] (kml_exporter) StdoutLine: {'line': b'Installing extract_to_kml script to /home/laura_benitez/urdf_ws/install/kml_exporter/lib/kml_exporter\n'}
+[4.717552] (-) TimerEvent: {}
+[4.718092] (kml_exporter) StdoutLine: {'line': b"writing list of installed files to '/home/laura_benitez/urdf_ws/build/kml_exporter/install.log'\n"}
+[4.739386] (kml_exporter) CommandEnded: {'returncode': 0}
+[4.831630] (-) TimerEvent: {}
+[4.854930] (kml_exporter) JobEnded: {'identifier': 'kml_exporter', 'rc': 0}
+[4.856229] (-) EventReactorShutdown: {}

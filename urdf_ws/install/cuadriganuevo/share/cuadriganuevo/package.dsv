@@ -1,0 +1,8 @@
+source;share/cuadriganuevo/hook/cmake_prefix_path.ps1
+source;share/cuadriganuevo/hook/cmake_prefix_path.dsv
+source;share/cuadriganuevo/hook/cmake_prefix_path.sh
+source;share/cuadriganuevo/local_setup.bash
+source;share/cuadriganuevo/local_setup.dsv
+source;share/cuadriganuevo/local_setup.ps1
+source;share/cuadriganuevo/local_setup.sh
+source;share/cuadriganuevo/local_setup.zsh

@@ -1,0 +1,44 @@
+[0.167s] Invoking command in '/home/laura_benitez/urdf_ws/build/cartographer_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/laura_benitez/urdf_ws/src/cartographer_example -DCMAKE_INSTALL_PREFIX=/home/laura_benitez/urdf_ws/install/cartographer_example
+[1.523s] -- The C compiler identification is GNU 11.4.0
+[2.043s] -- The CXX compiler identification is GNU 11.4.0
+[2.455s] -- Detecting C compiler ABI info
+[3.081s] -- Detecting C compiler ABI info - done
+[3.102s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.117s] -- Detecting C compile features
+[3.136s] -- Detecting C compile features - done
+[3.232s] -- Detecting CXX compiler ABI info
+[3.662s] -- Detecting CXX compiler ABI info - done
+[3.676s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.677s] -- Detecting CXX compile features
+[3.678s] -- Detecting CXX compile features - done
+[3.738s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.336s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.456s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.082s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.095s] -- Added test 'lint_cmake' to check CMake code style
+[6.106s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.128s] -- Added test 'xmllint' to check XML markup files
+[6.169s] -- Configuring done
+[6.205s] -- Generating done
+[6.274s] -- Build files have been written to: /home/laura_benitez/urdf_ws/build/cartographer_example
+[6.288s] Invoked command in '/home/laura_benitez/urdf_ws/build/cartographer_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/laura_benitez/urdf_ws/src/cartographer_example -DCMAKE_INSTALL_PREFIX=/home/laura_benitez/urdf_ws/install/cartographer_example
+[6.291s] Invoking command in '/home/laura_benitez/urdf_ws/build/cartographer_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cartographer_example -- -j16 -l16
+[6.919s] Invoked command in '/home/laura_benitez/urdf_ws/build/cartographer_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cartographer_example -- -j16 -l16
+[6.921s] Invoking command in '/home/laura_benitez/urdf_ws/build/cartographer_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cartographer_example
+[6.954s] -- Install configuration: ""
+[6.957s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/ament_index/resource_index/package_run_dependencies/cartographer_example
+[6.959s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/ament_index/resource_index/parent_prefix_path/cartographer_example
+[6.962s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/environment/ament_prefix_path.sh
+[6.963s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/environment/ament_prefix_path.dsv
+[6.965s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/environment/path.sh
+[6.967s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/environment/path.dsv
+[6.968s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/local_setup.bash
+[6.970s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/local_setup.sh
+[6.971s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/local_setup.zsh
+[6.973s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/local_setup.dsv
+[6.974s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/package.dsv
+[6.976s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/ament_index/resource_index/packages/cartographer_example
+[6.978s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/cmake/cartographer_exampleConfig.cmake
+[6.980s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/cmake/cartographer_exampleConfig-version.cmake
+[6.981s] -- Installing: /home/laura_benitez/urdf_ws/install/cartographer_example/share/cartographer_example/package.xml
+[6.987s] Invoked command in '/home/laura_benitez/urdf_ws/build/cartographer_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cartographer_example

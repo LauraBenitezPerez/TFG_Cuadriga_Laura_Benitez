@@ -1,0 +1,513 @@
+[0.200s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.200s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f9f5d97a680>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9f5daef580>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9f5daef580>>, mixin_verb=('build',))
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.530s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/laura_benitez/urdf_ws'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ignore'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ignore_ament_install'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['colcon_pkg']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'colcon_pkg'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['colcon_meta']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'colcon_meta'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['ros']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ros'
+[0.552s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint-main-ros2' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga) by extension 'ignore_ament_install'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga) by extensions ['colcon_pkg']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga) by extension 'colcon_pkg'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga) by extensions ['colcon_meta']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga) by extension 'ros'
+[0.553s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cuadriga' with type 'ros.ament_cmake' and name 'cuadriga'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga_interfaces) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga_interfaces) by extension 'ignore_ament_install'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga_interfaces) by extensions ['colcon_pkg']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga_interfaces) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga_interfaces) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga_interfaces) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga_interfaces) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriga_interfaces) by extension 'ros'
+[0.555s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cuadriga_interfaces' with type 'ros.ament_cmake' and name 'cuadriga_interfaces'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriganuevo) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriganuevo) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriganuevo) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriganuevo) by extensions ['colcon_pkg']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriganuevo) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriganuevo) by extensions ['colcon_meta']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriganuevo) by extension 'colcon_meta'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriganuevo) by extensions ['ros']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/cuadriganuevo) by extension 'ros'
+[0.556s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cuadriganuevo' with type 'ros.ament_cmake' and name 'cuadriganuevo'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpx_loader) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpx_loader) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpx_loader) by extension 'ignore_ament_install'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpx_loader) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpx_loader) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpx_loader) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpx_loader) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpx_loader) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpx_loader) by extension 'ros'
+[0.558s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gpx_loader' with type 'ros.ament_python' and name 'gpx_loader'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'ignore_ament_install'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extensions ['colcon_pkg']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'colcon_pkg'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extensions ['colcon_meta']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'colcon_meta'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extensions ['ros']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'ros'
+[0.560s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy' with type 'ros.ament_cmake' and name 'joy'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ignore_ament_install'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['colcon_pkg']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'colcon_pkg'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['colcon_meta']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ros'
+[0.561s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_twist_keyboard' with type 'ros.ament_python' and name 'teleop_twist_keyboard'
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.608s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/laura_benitez/urdf_ws/install
+[0.609s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/laura_benitez/rosgame_ws/install
+[0.610s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/laura_benitez/cypr_ws/install
+[0.610s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/laura_benitez/test_ws/install
+[0.613s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.690s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'joy' is in: /home/laura_benitez/urdf_ws/install/joy, /opt/ros/humble
+	'teleop_twist_keyboard' is in: /home/laura_benitez/urdf_ws/install/teleop_twist_keyboard, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding joy teleop_twist_keyboard
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'cuadriga_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'cuadriga_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'cuadriga_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'cuadriga_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'cuadriga_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'cuadriga_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'cuadriga_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'cuadriga_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'cuadriga_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.697s] DEBUG:colcon.colcon_core.verb:Building package 'cuadriga_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces', 'merge_install': False, 'path': '/home/laura_benitez/urdf_ws/src/cuadriga_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'cuadriganuevo' build argument 'cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'cuadriganuevo' build argument 'cmake_target' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'cuadriganuevo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'cuadriganuevo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'cuadriganuevo' build argument 'cmake_clean_first' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'cuadriganuevo' build argument 'cmake_force_configure' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'cuadriganuevo' build argument 'ament_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'cuadriganuevo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'cuadriganuevo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.698s] DEBUG:colcon.colcon_core.verb:Building package 'cuadriganuevo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laura_benitez/urdf_ws/build/cuadriganuevo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laura_benitez/urdf_ws/install/cuadriganuevo', 'merge_install': False, 'path': '/home/laura_benitez/urdf_ws/src/cuadriganuevo', 'symlink_install': False, 'test_result_base': None}
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.698s] DEBUG:colcon.colcon_core.verb:Building package 'joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laura_benitez/urdf_ws/build/joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laura_benitez/urdf_ws/install/joy', 'merge_install': False, 'path': '/home/laura_benitez/urdf_ws/src/joy', 'symlink_install': False, 'test_result_base': None}
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.699s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laura_benitez/urdf_ws/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/laura_benitez/urdf_ws/src/ROS-TCP-Endpoint-main-ros2', 'symlink_install': False, 'test_result_base': None}
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_target' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.699s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_twist_keyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laura_benitez/urdf_ws/build/teleop_twist_keyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard', 'merge_install': False, 'path': '/home/laura_benitez/urdf_ws/src/teleop_twist_keyboard', 'symlink_install': False, 'test_result_base': None}
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cuadriga' build argument 'cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cuadriga' build argument 'cmake_target' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cuadriga' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cuadriga' build argument 'cmake_clean_cache' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cuadriga' build argument 'cmake_clean_first' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cuadriga' build argument 'cmake_force_configure' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cuadriga' build argument 'ament_cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cuadriga' build argument 'catkin_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'cuadriga' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.700s] DEBUG:colcon.colcon_core.verb:Building package 'cuadriga' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laura_benitez/urdf_ws/build/cuadriga', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laura_benitez/urdf_ws/install/cuadriga', 'merge_install': False, 'path': '/home/laura_benitez/urdf_ws/src/cuadriga', 'symlink_install': False, 'test_result_base': None}
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'gpx_loader' build argument 'cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'gpx_loader' build argument 'cmake_target' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'gpx_loader' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'gpx_loader' build argument 'cmake_clean_cache' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'gpx_loader' build argument 'cmake_clean_first' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'gpx_loader' build argument 'cmake_force_configure' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'gpx_loader' build argument 'ament_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'gpx_loader' build argument 'catkin_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'gpx_loader' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.700s] DEBUG:colcon.colcon_core.verb:Building package 'gpx_loader' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laura_benitez/urdf_ws/build/gpx_loader', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laura_benitez/urdf_ws/install/gpx_loader', 'merge_install': False, 'path': '/home/laura_benitez/urdf_ws/src/gpx_loader', 'symlink_install': False, 'test_result_base': None}
+[0.700s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.701s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.701s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/laura_benitez/urdf_ws/src/cuadriga_interfaces' with build type 'ament_cmake'
+[0.701s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/laura_benitez/urdf_ws/src/cuadriga_interfaces'
+[0.707s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.707s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.707s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.719s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/laura_benitez/urdf_ws/src/cuadriganuevo' with build type 'ament_cmake'
+[0.719s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/laura_benitez/urdf_ws/src/cuadriganuevo'
+[0.719s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.719s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.730s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/laura_benitez/urdf_ws/src/joy' with build type 'ament_cmake'
+[0.730s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/laura_benitez/urdf_ws/src/joy'
+[0.731s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.731s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.741s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/laura_benitez/urdf_ws/src/ROS-TCP-Endpoint-main-ros2' with build type 'ament_python'
+[0.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[0.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[0.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[0.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.756s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/laura_benitez/urdf_ws/src/teleop_twist_keyboard' with build type 'ament_python'
+[0.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_keyboard', 'ament_prefix_path')
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.ps1'
+[0.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.dsv'
+[0.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.sh'
+[0.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriga_interfaces -- -j16 -l16
+[0.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriganuevo -- -j16 -l16
+[0.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laura_benitez/urdf_ws/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/joy -- -j16 -l16
+[1.313s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/laura_benitez/urdf_ws/src/ROS-TCP-Endpoint-main-ros2'
+[1.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriganuevo -- -j16 -l16
+[1.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cuadriganuevo
+[1.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laura_benitez/urdf_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/joy -- -j16 -l16
+[1.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laura_benitez/urdf_ws/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/joy
+[1.822s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/laura_benitez/urdf_ws/src/teleop_twist_keyboard'
+[1.823s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.823s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cuadriganuevo)
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriganuevo' for CMake module files
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriganuevo' for CMake config files
+[1.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('cuadriganuevo', 'cmake_prefix_path')
+[1.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/hook/cmake_prefix_path.ps1'
+[1.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/hook/cmake_prefix_path.dsv'
+[1.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/hook/cmake_prefix_path.sh'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriganuevo/bin'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriganuevo/lib/pkgconfig/cuadriganuevo.pc'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriganuevo/lib/python3.10/site-packages'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriganuevo/bin'
+[1.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.ps1'
+[1.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.dsv'
+[1.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.sh'
+[1.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.bash'
+[1.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.zsh'
+[1.855s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/colcon-core/packages/cuadriganuevo)
+[1.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cuadriganuevo)
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriganuevo' for CMake module files
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriganuevo' for CMake config files
+[1.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriganuevo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cuadriganuevo
+[1.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('cuadriganuevo', 'cmake_prefix_path')
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/hook/cmake_prefix_path.ps1'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/hook/cmake_prefix_path.dsv'
+[1.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/hook/cmake_prefix_path.sh'
+[1.864s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriganuevo/bin'
+[1.864s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriganuevo/lib/pkgconfig/cuadriganuevo.pc'
+[1.864s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriganuevo/lib/python3.10/site-packages'
+[1.864s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriganuevo/bin'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.ps1'
+[1.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.dsv'
+[1.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.sh'
+[1.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.bash'
+[1.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/cuadriganuevo/package.zsh'
+[1.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laura_benitez/urdf_ws/install/cuadriganuevo/share/colcon-core/packages/cuadriganuevo)
+[1.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriga_interfaces -- -j16 -l16
+[1.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cuadriga_interfaces
+[1.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[1.883s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/joy' for CMake module files
+[1.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laura_benitez/urdf_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/joy
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/joy' for CMake config files
+[1.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[1.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[1.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[1.889s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/joy/lib'
+[1.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[1.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[1.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[1.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/joy/bin'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/joy/lib/pkgconfig/joy.pc'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/joy/lib/python3.10/site-packages'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/joy/bin'
+[1.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/joy/share/joy/package.ps1'
+[1.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laura_benitez/urdf_ws/install/joy/share/joy/package.dsv'
+[1.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/joy/share/joy/package.sh'
+[1.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/joy/share/joy/package.bash'
+[1.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/joy/share/joy/package.zsh'
+[1.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laura_benitez/urdf_ws/install/joy/share/colcon-core/packages/joy)
+[1.898s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[1.898s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/joy' for CMake module files
+[1.900s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/joy' for CMake config files
+[1.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[1.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[1.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[1.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[1.904s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/joy/lib'
+[1.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[1.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[1.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[1.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[1.906s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/joy/bin'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/joy/lib/pkgconfig/joy.pc'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/joy/lib/python3.10/site-packages'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/joy/bin'
+[1.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/joy/share/joy/package.ps1'
+[1.908s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laura_benitez/urdf_ws/install/joy/share/joy/package.dsv'
+[1.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/joy/share/joy/package.sh'
+[1.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/joy/share/joy/package.bash'
+[1.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/joy/share/joy/package.zsh'
+[1.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laura_benitez/urdf_ws/install/joy/share/colcon-core/packages/joy)
+[2.075s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cuadriga_interfaces)
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces' for CMake module files
+[2.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriga_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cuadriga_interfaces
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces' for CMake config files
+[2.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('cuadriga_interfaces', 'cmake_prefix_path')
+[2.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/hook/cmake_prefix_path.ps1'
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/hook/cmake_prefix_path.dsv'
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/hook/cmake_prefix_path.sh'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib'
+[2.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('cuadriga_interfaces', 'ld_library_path_lib')
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/hook/ld_library_path_lib.ps1'
+[2.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/hook/ld_library_path_lib.dsv'
+[2.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/hook/ld_library_path_lib.sh'
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/bin'
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/pkgconfig/cuadriga_interfaces.pc'
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/python3.10/site-packages'
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/bin'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/package.ps1'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/package.dsv'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/package.sh'
+[2.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/package.bash'
+[2.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/package.zsh'
+[2.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/colcon-core/packages/cuadriga_interfaces)
+[2.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cuadriga_interfaces)
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces' for CMake module files
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces' for CMake config files
+[2.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('cuadriga_interfaces', 'cmake_prefix_path')
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/hook/cmake_prefix_path.ps1'
+[2.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/hook/cmake_prefix_path.dsv'
+[2.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/hook/cmake_prefix_path.sh'
+[2.098s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib'
+[2.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('cuadriga_interfaces', 'ld_library_path_lib')
+[2.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/hook/ld_library_path_lib.ps1'
+[2.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/hook/ld_library_path_lib.dsv'
+[2.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/hook/ld_library_path_lib.sh'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/bin'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/pkgconfig/cuadriga_interfaces.pc'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib/python3.10/site-packages'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/bin'
+[2.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/package.ps1'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/package.dsv'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/package.sh'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/package.bash'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/cuadriga_interfaces/package.zsh'
+[2.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/share/colcon-core/packages/cuadriga_interfaces)
+[2.113s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/laura_benitez/urdf_ws/src/cuadriga' with build type 'ament_cmake'
+[2.113s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/laura_benitez/urdf_ws/src/cuadriga'
+[2.114s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.131s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/laura_benitez/urdf_ws/src/gpx_loader' with build type 'ament_python'
+[2.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('gpx_loader', 'ament_prefix_path')
+[2.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/gpx_loader/share/gpx_loader/hook/ament_prefix_path.ps1'
+[2.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/gpx_loader/share/gpx_loader/hook/ament_prefix_path.dsv'
+[2.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/gpx_loader/share/gpx_loader/hook/ament_prefix_path.sh'
+[2.135s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.135s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriga': CMAKE_PREFIX_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/urdf_ws/install/joy:/home/laura_benitez/urdf_ws/install/cuadriganuevo:/home/laura_benitez/urdf_ws/install/cuadriga:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble LD_LIBRARY_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:/home/laura_benitez/urdf_ws/install/joy/lib:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriga -- -j16 -l16
+[2.689s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/laura_benitez/urdf_ws/src/gpx_loader'
+[2.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laura_benitez/urdf_ws/src/ROS-TCP-Endpoint-main-ros2': PYTHONPATH=/home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build install --record /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[2.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laura_benitez/urdf_ws/src/teleop_twist_keyboard': PYTHONPATH=/home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/build install --record /home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
+[3.308s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard' for CMake module files
+[3.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laura_benitez/urdf_ws/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/build install --record /home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
+[3.310s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard' for CMake config files
+[3.311s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib'
+[3.311s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/bin'
+[3.311s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib/pkgconfig/teleop_twist_keyboard.pc'
+[3.312s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages'
+[3.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_keyboard', 'pythonpath')
+[3.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.ps1'
+[3.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.dsv'
+[3.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.sh'
+[3.314s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/bin'
+[3.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_keyboard)
+[3.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.ps1'
+[3.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.dsv'
+[3.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.sh'
+[3.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.bash'
+[3.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.zsh'
+[3.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/share/colcon-core/packages/teleop_twist_keyboard)
+[3.319s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint' for CMake module files
+[3.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laura_benitez/urdf_ws/src/ROS-TCP-Endpoint-main-ros2' returned '0': PYTHONPATH=/home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/build install --record /home/laura_benitez/urdf_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[3.321s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint' for CMake config files
+[3.323s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib'
+[3.323s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/bin'
+[3.323s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[3.323s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages'
+[3.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[3.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[3.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[3.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[3.326s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/bin'
+[3.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[3.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[3.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[3.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[3.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[3.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[3.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[3.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laura_benitez/urdf_ws/src/gpx_loader': CMAKE_PREFIX_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/urdf_ws/install/joy:/home/laura_benitez/urdf_ws/install/cuadriganuevo:/home/laura_benitez/urdf_ws/install/cuadriga:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller LD_LIBRARY_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:/home/laura_benitez/urdf_ws/install/joy/lib:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/laura_benitez/urdf_ws/build/gpx_loader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gpx_loader build --build-base /home/laura_benitez/urdf_ws/build/gpx_loader/build install --record /home/laura_benitez/urdf_ws/build/gpx_loader/install.log --single-version-externally-managed install_data
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/gpx_loader' for CMake module files
+[3.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laura_benitez/urdf_ws/src/gpx_loader' returned '0': CMAKE_PREFIX_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/urdf_ws/install/joy:/home/laura_benitez/urdf_ws/install/cuadriganuevo:/home/laura_benitez/urdf_ws/install/cuadriga:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller LD_LIBRARY_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:/home/laura_benitez/urdf_ws/install/joy/lib:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/laura_benitez/urdf_ws/build/gpx_loader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gpx_loader build --build-base /home/laura_benitez/urdf_ws/build/gpx_loader/build install --record /home/laura_benitez/urdf_ws/build/gpx_loader/install.log --single-version-externally-managed install_data
+[3.913s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/gpx_loader' for CMake config files
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/gpx_loader/lib'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/gpx_loader/bin'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/gpx_loader/lib/pkgconfig/gpx_loader.pc'
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/gpx_loader/lib/python3.10/site-packages'
+[3.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('gpx_loader', 'pythonpath')
+[3.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/gpx_loader/share/gpx_loader/hook/pythonpath.ps1'
+[3.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/gpx_loader/share/gpx_loader/hook/pythonpath.dsv'
+[3.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/gpx_loader/share/gpx_loader/hook/pythonpath.sh'
+[3.919s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/gpx_loader/bin'
+[3.919s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gpx_loader)
+[3.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/gpx_loader/share/gpx_loader/package.ps1'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laura_benitez/urdf_ws/install/gpx_loader/share/gpx_loader/package.dsv'
+[3.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/gpx_loader/share/gpx_loader/package.sh'
+[3.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/gpx_loader/share/gpx_loader/package.bash'
+[3.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/gpx_loader/share/gpx_loader/package.zsh'
+[3.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laura_benitez/urdf_ws/install/gpx_loader/share/colcon-core/packages/gpx_loader)
+[16.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriga' returned '0': CMAKE_PREFIX_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/urdf_ws/install/joy:/home/laura_benitez/urdf_ws/install/cuadriganuevo:/home/laura_benitez/urdf_ws/install/cuadriga:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble LD_LIBRARY_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:/home/laura_benitez/urdf_ws/install/joy/lib:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/laura_benitez/urdf_ws/build/cuadriga -- -j16 -l16
+[16.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laura_benitez/urdf_ws/build/cuadriga': CMAKE_PREFIX_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/urdf_ws/install/joy:/home/laura_benitez/urdf_ws/install/cuadriganuevo:/home/laura_benitez/urdf_ws/install/cuadriga:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble LD_LIBRARY_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:/home/laura_benitez/urdf_ws/install/joy/lib:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cuadriga
+[16.432s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cuadriga)
+[16.432s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga' for CMake module files
+[16.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laura_benitez/urdf_ws/build/cuadriga' returned '0': CMAKE_PREFIX_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces:/home/laura_benitez/urdf_ws/install/joy:/home/laura_benitez/urdf_ws/install/cuadriganuevo:/home/laura_benitez/urdf_ws/install/cuadriga:/home/laura_benitez/test_ws/install/mi_robot_description:/home/laura_benitez/rosgame_ws/install/warrior_15:/home/laura_benitez/rosgame_ws/install/rosgame_msgs:/home/laura_benitez/rosgame_ws/install/rosgame_bridge:/home/laura_benitez/cypr_ws/install/navigation:/home/laura_benitez/cypr_ws/install/motion:/home/laura_benitez/cypr_ws/install/localization:/home/laura_benitez/cypr_ws/install/keyboard_control:/home/laura_benitez/cypr_ws/install/arm_controller:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard:/home/laura_benitez/urdf_ws/install/ros_tcp_endpoint:/home/laura_benitez/urdf_ws/install/gpx_loader:/opt/ros/humble LD_LIBRARY_PATH=/home/laura_benitez/urdf_ws/install/cuadriga_interfaces/lib:/home/laura_benitez/urdf_ws/install/joy/lib:/home/laura_benitez/rosgame_ws/install/rosgame_msgs/lib:/home/laura_benitez/rosgame_ws/install/rosgame_bridge/lib:/home/laura_benitez/cypr_ws/install/navigation/lib:/home/laura_benitez/cypr_ws/install/localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/laura_benitez/urdf_ws/build/cuadriga
+[16.434s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga' for CMake config files
+[16.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('cuadriga', 'cmake_prefix_path')
+[16.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/hook/cmake_prefix_path.ps1'
+[16.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/hook/cmake_prefix_path.dsv'
+[16.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/hook/cmake_prefix_path.sh'
+[16.437s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga/lib'
+[16.437s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga/bin'
+[16.438s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga/lib/pkgconfig/cuadriga.pc'
+[16.438s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga/lib/python3.10/site-packages'
+[16.438s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga/bin'
+[16.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/package.ps1'
+[16.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/package.dsv'
+[16.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/package.sh'
+[16.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/package.bash'
+[16.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/package.zsh'
+[16.441s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laura_benitez/urdf_ws/install/cuadriga/share/colcon-core/packages/cuadriga)
+[16.442s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cuadriga)
+[16.442s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga' for CMake module files
+[16.443s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga' for CMake config files
+[16.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('cuadriga', 'cmake_prefix_path')
+[16.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/hook/cmake_prefix_path.ps1'
+[16.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/hook/cmake_prefix_path.dsv'
+[16.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/hook/cmake_prefix_path.sh'
+[16.446s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga/lib'
+[16.446s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga/bin'
+[16.446s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga/lib/pkgconfig/cuadriga.pc'
+[16.446s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga/lib/python3.10/site-packages'
+[16.447s] Level 1:colcon.colcon_core.environment:checking '/home/laura_benitez/urdf_ws/install/cuadriga/bin'
+[16.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/package.ps1'
+[16.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/package.dsv'
+[16.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/package.sh'
+[16.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/package.bash'
+[16.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/laura_benitez/urdf_ws/install/cuadriga/share/cuadriga/package.zsh'
+[16.450s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laura_benitez/urdf_ws/install/cuadriga/share/colcon-core/packages/cuadriga)
+[16.450s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.450s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.450s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.451s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.517s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[16.517s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.517s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.517s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.541s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally with the following error: Autolaunch error: X11 initialization failed.
+
+[16.542s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.543s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/laura_benitez/urdf_ws/install/local_setup.ps1'
+[16.545s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/laura_benitez/urdf_ws/install/_local_setup_util_ps1.py'
+[16.547s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/laura_benitez/urdf_ws/install/setup.ps1'
+[16.552s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/laura_benitez/urdf_ws/install/local_setup.sh'
+[16.553s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/laura_benitez/urdf_ws/install/_local_setup_util_sh.py'
+[16.554s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/laura_benitez/urdf_ws/install/setup.sh'
+[16.558s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/laura_benitez/urdf_ws/install/local_setup.bash'
+[16.560s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/laura_benitez/urdf_ws/install/setup.bash'
+[16.564s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/laura_benitez/urdf_ws/install/local_setup.zsh'
+[16.566s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/laura_benitez/urdf_ws/install/setup.zsh'

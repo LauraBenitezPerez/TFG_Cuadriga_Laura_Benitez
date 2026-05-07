@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="cuadriganuevo">
+  <link
+    name="Chasis_link">
+    <inertial>
+      <origin
+        xyz="-0.13307651675874 5.98249848043367E-06 0.320430258289949"
+        rpy="0 0 0" />
+      <mass
+        value="68.48" />
+      <inertia
+        ixx="3.173672984"
+        ixy="-7.34801E-06"
+        ixz="0.3973765491"
+        iyy="1.716614282"
+        iyz="3.90131E-06"
+        izz="3.469992447" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cuadriganuevo/meshes/Chasis_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cuadriganuevo/meshes/Chasis_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

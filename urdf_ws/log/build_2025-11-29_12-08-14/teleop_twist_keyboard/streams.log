@@ -1,0 +1,22 @@
+[5.838s] Invoking command in '/home/laura_benitez/urdf_ws/src/teleop_twist_keyboard': PYTHONPATH=/home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/build install --record /home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
+[6.279s] running egg_info
+[6.279s] writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[6.281s] writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[6.281s] writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[6.281s] writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[6.282s] writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[6.287s] reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[6.294s] adding license file 'LICENSE'
+[6.295s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[6.295s] running build
+[6.295s] running build_py
+[6.296s] running install
+[6.297s] running install_lib
+[6.301s] running install_data
+[6.301s] running install_egg_info
+[6.304s] removing '/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.0-py3.10.egg-info' (and everything under it)
+[6.306s] Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.0-py3.10.egg-info
+[6.312s] running install_scripts
+[6.339s] Installing teleop_twist_keyboard script to /home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[6.340s] writing list of installed files to '/home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/install.log'
+[6.374s] Invoked command in '/home/laura_benitez/urdf_ws/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laura_benitez/urdf_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/build install --record /home/laura_benitez/urdf_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
