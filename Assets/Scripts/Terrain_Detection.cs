@@ -4,50 +4,89 @@ using UnityEngine;
 
 public class Terrain_Detection : MonoBehaviour
 {
-    //The material I want to modify its characteristics 
+    [Header("Material físico a modificar")]
     public PhysicMaterial physicMaterial;
-    public LayerMask layerToIgnore; //To Assign the layer I want to ignore
-    RaycastHit hit;
-    
+
+    [Header("Capas a ignorar")]
+    public LayerMask layerToIgnore;
+
+    [Header("Sistema de clima")]
+    public WeatherEffects weatherEffects;
+
+    private RaycastHit hit;
+
     void FixedUpdate()
     {
-        //Set the raycast ignoring "map" layer assigned on the inspector by public value
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, Mathf.Infinity, ~layerToIgnore))
         {
-            //Draw a yellow ray for testing.
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.down) * hit.distance, Color.yellow);
+
+            bool raining = false;
+
+            if (weatherEffects != null)
+            {
+                raining = weatherEffects.isRaining;
+            }
+
             if (hit.transform.CompareTag("Road"))
             {
-                physicMaterial.dynamicFriction = 0.3f;
-                physicMaterial.staticFriction = 0.3f;
-                physicMaterial.bounciness = 0.0f;
-                Debug.Log("Did Hit Road. df = " + physicMaterial.dynamicFriction + "sf= " + physicMaterial.staticFriction);
+                if (raining)
+                {
+                    SetPhysicMaterial(0.15f, 0.15f, 0.0f);
+                    Debug.Log("Road mojado. df = " + physicMaterial.dynamicFriction + " sf = " + physicMaterial.staticFriction);
+                }
+                else
+                {
+                    SetPhysicMaterial(0.3f, 0.3f, 0.0f);
+                    Debug.Log("Road seco. df = " + physicMaterial.dynamicFriction + " sf = " + physicMaterial.staticFriction);
+                }
             }
             else if (hit.transform.CompareTag("Pavement"))
             {
-                physicMaterial.dynamicFriction = 0.2f;
-                physicMaterial.staticFriction = 0.2f;
-                physicMaterial.bounciness = 0.0f;
-                Debug.Log("Did Hit Pavement. df = " + physicMaterial.dynamicFriction + "sf= " + physicMaterial.staticFriction);
+                if (raining)
+                {
+                    SetPhysicMaterial(0.1f, 0.1f, 0.0f);
+                    Debug.Log("Pavement mojado. df = " + physicMaterial.dynamicFriction + " sf = " + physicMaterial.staticFriction);
+                }
+                else
+                {
+                    SetPhysicMaterial(0.2f, 0.2f, 0.0f);
+                    Debug.Log("Pavement seco. df = " + physicMaterial.dynamicFriction + " sf = " + physicMaterial.staticFriction);
+                }
             }
             else if (hit.transform.CompareTag("RiverBed"))
             {
-                physicMaterial.dynamicFriction = 0.6f;
-                physicMaterial.staticFriction = 0.6f;
-                physicMaterial.bounciness = 0.0f;
-                Debug.Log("Did Hit RiverBed. df = " + physicMaterial.dynamicFriction + "sf= " + physicMaterial.staticFriction);
+                if (raining)
+                {
+                    SetPhysicMaterial(0.8f, 0.8f, 0.0f);
+                    Debug.Log("RiverBed con lluvia. df = " + physicMaterial.dynamicFriction + " sf = " + physicMaterial.staticFriction);
+                }
+                else
+                {
+                    SetPhysicMaterial(0.6f, 0.6f, 0.0f);
+                    Debug.Log("RiverBed seco. df = " + physicMaterial.dynamicFriction + " sf = " + physicMaterial.staticFriction);
+                }
             }
             else
             {
-                physicMaterial.dynamicFriction = 0.5f;
-                physicMaterial.staticFriction = 0.5f;
-                physicMaterial.bounciness = 0.0f;
-                Debug.Log("Did Hit OffRoad. df = " + physicMaterial.dynamicFriction + "sf= " + physicMaterial.staticFriction);
-
+                if (raining)
+                {
+                    SetPhysicMaterial(0.7f, 0.7f, 0.0f);
+                    Debug.Log("OffRoad mojado. df = " + physicMaterial.dynamicFriction + " sf = " + physicMaterial.staticFriction);
+                }
+                else
+                {
+                    SetPhysicMaterial(0.5f, 0.5f, 0.0f);
+                    Debug.Log("OffRoad seco. df = " + physicMaterial.dynamicFriction + " sf = " + physicMaterial.staticFriction);
+                }
             }
         }
     }
+
+    void SetPhysicMaterial(float dynamicFriction, float staticFriction, float bounciness)
+    {
+        physicMaterial.dynamicFriction = dynamicFriction;
+        physicMaterial.staticFriction = staticFriction;
+        physicMaterial.bounciness = bounciness;
+    }
 }
-
-
-

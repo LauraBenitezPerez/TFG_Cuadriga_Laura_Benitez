@@ -64,7 +64,7 @@ namespace RosSharp.Control
 
         void FixedUpdate()
         {
-            if (Time.time - lastCmdReceived > ROSTimeout)
+           if (Time.time - lastCmdReceived > ROSTimeout)
             {
                 rosLinear = 0f;
                 rosAngular = 0f;

@@ -15,6 +15,7 @@ public class LiDARPublisher : MonoBehaviour
     public int numSamples = 431;
     public float minRange = 0.2f;
     public float maxRange = 35.0f;
+    public float tiltAngle = 15.0f;
 
     void Start()
     {
@@ -39,7 +40,7 @@ public class LiDARPublisher : MonoBehaviour
         LaserScanMsg lidarMessage = new LaserScanMsg();
 
         //lidarMessage.header.stamp = new RosTime();
-        lidarMessage.header.frame_id = "Velodyne_link";
+        lidarMessage.header.frame_id = "Sensor_link";
 
         lidarMessage.angle_min = -Mathf.PI / 2; 
         lidarMessage.angle_max = Mathf.PI / 2;
@@ -56,13 +57,16 @@ public class LiDARPublisher : MonoBehaviour
         for (int i = 0; i < numSamples; i++)
         {
             float angle = lidarMessage.angle_min + i * lidarMessage.angle_increment;
+            // Ángulo de inclinación hacia el suelo
+            float tiltInRadians = tiltAngle * Mathf.Deg2Rad; 
 
-            // Calcula la dirección en base al ángulo
-            Vector3 rayDirection = new Vector3(Mathf.Cos(angle), 0, Mathf.Sin(angle));
+            // Dirección del rayo considerando inclinación
+            Vector3 rayDirection = new Vector3(Mathf.Cos(angle) * Mathf.Cos(tiltInRadians), -Mathf.Sin(tiltInRadians), Mathf.Sin(angle) * Mathf.Cos(tiltInRadians));
+            //Vector3 rayDirection = new Vector3(Mathf.Cos(angle), 0, Mathf.Sin(angle));
             RaycastHit hit;
 
             // Dibuja el rayo en la escena de Unity
-            //Debug.DrawRay(transform.position, transform.TransformDirection(rayDirection) * maxRange, Color.yellow);
+            Debug.DrawRay(transform.position, transform.TransformDirection(rayDirection) * maxRange, Color.red);
 
             // Raycast en dirección calculada
             if (Physics.Raycast(transform.position, transform.TransformDirection(rayDirection), out hit, maxRange))

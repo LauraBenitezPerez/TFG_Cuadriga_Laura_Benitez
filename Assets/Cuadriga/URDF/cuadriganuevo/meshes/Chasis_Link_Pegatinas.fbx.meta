@@ -3,57 +3,7 @@ guid: d7e508d2719b61247a7f597c83a9b6f2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Chasis
-    second: {fileID: 2100000, guid: 64dd0bd20b8227b43bb20fe727f38a54, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Cubierta_1
-    second: {fileID: 2100000, guid: be81bdaa6c2bd9b4db23de3f74efdc6b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Letras
-    second: {fileID: 2100000, guid: 94480b15090aae64e8b2e35dd444e073, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 8275bca7ef19b504fa78505e2ef6682d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: d0e467653289eaa428a165637f48ee5b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: db721e0b83bd8e44cad0307c65151a93, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.004
-    second: {fileID: 2100000, guid: 9d1fa23fe6ba1404c90ea9ac30da8a3b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.005
-    second: {fileID: 2100000, guid: d28ac4d68dc64394d8af9e820315dbdc, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Metal049C_1K-JPG_Color
-    second: {fileID: 2800000, guid: 37a8daf0a4100ff488c2dbe207f1b5d8, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: WhatsApp Image 2025-10-20 at 20.35.35
-    second: {fileID: 2800000, guid: c78497af98f599f4dbad1636561d692f, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

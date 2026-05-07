@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: 69cafc15328a60e44a5df74bf2594a21
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh10_Vertical_Bar10_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 68d727e4897f69e4c91479f69d77f3ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh11_Vertical_Bar11_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 71101214d8abdbb4ea2ddfec16b13093, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh12_Vertical_Bar12_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: bc5ae6b002c96354791ec0a26e2a6338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh13_Vertical_Bar13_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: a7466d1310251244aa05578d2526bada, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh14_Vertical_Bar14_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: b61c5dc97cb18d74182bea61ac5d90e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh15_Vertical_Bar15_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 43f34dc0f55c9804abf5534259fc0219, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh16_Vertical_Bar16_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: f741668e35a81fd4ebb5b3954b294177, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh17_Vertical_Bar17_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: ba23cfcdd3f09c647b4a89cef9fc277f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh18_Vertical_Bar18_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: bdf09885e75023647ad8cd161fa4c89f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh19_Foot1_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 8c3c118f7719fb643955f702da1efd60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh1_Vertical_Bar1_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: c2ec1116c780a3e4882a05dc98f787cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh20_Foot2_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 15c667d5ede79af49bc2da5e24743298, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh21_Vertical_Bar19_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: e0e28b2abf0d2d348a0ea0014e42f306, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh22_Vertical_Bar20_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: ceae62571dc273f4ea7313e85e48030f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh23_Vertical_Bar21_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 98dff7857011a88408ddab61aa5fd15e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh24_Vertical_Bar22_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: c4509bd7a9c81164fbde1455e6026aa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh25_Vertical_Bar23_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: b30deca2fa969cb43a0326f6a82fb062, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh26_Barrier1_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 2891950b8a060c543a583c106888a5ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh27_Barrier1_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 42218efa2b5b9494396739a9f6ca1398, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh28_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 16dd502cdbe1ead45bbc1de48febe87b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh29_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 8de0aed10f82a054aa615ee105c92f38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh2_Vertical_Bar2_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 4426fd89631d9c546b48a5201c4eb630, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh3_Vertical_Bar3_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: ed063833c50813c44b33419d158de04b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh4_Vertical_Bar4_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: d1a4ad70256ff4048aaac402d53865c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh5_Vertical_Bar5_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 5b96f5aee0218834aa62678d6d036a3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh6_Vertical_Bar6_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: e422292af6005c64982e8b6a57ab3d2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh7_Vertical_Bar7_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 27c1e70dce5990d40b8460ad4d67748c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh8_Vertical_Bar8_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 19c71de0979b2c44aaef64d7a8638e74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh9_Vertical_Bar9_Barrier_Steel1_ModelMat
+    second: {fileID: 2100000, guid: 369ba602d1d3e0443ab913aca1b312ea, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

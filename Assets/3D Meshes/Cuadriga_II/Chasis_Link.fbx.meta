@@ -3,47 +3,7 @@ guid: 668205870797b2d4a8e1524c1ad91df8
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Chasis
-    second: {fileID: 2100000, guid: 603c4c08eb1f9f344b019db6962e2385, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Cubierta_1
-    second: {fileID: 2100000, guid: d32530a62174be045b133219e22fa744, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Letras
-    second: {fileID: 2100000, guid: b0d79670e2c0fd149a1f2f3a7c23ef0a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: f585a9fcb4985a84eb4db20ad205569e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: b34fbde1684d8c242a9d77884a4fa8f1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: ddef40e442be6c94ebe7acd1eab3ccb7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.004
-    second: {fileID: 2100000, guid: b1938d16d0fd7aa4e8d726be853e4f26, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.005
-    second: {fileID: 2100000, guid: 3c4feb069139eee4a97e777e5a596683, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
